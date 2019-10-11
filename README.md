@@ -6,7 +6,7 @@
 * [BackEnd Web Developer](#BackEnd-Web Developer)
 * [Mobile Developer](#Mobile-Developer)
 * [Software Engineering](#Software-Engineering)
-* [computer science](#Lcomputer-science)
+* [computer science](#computer-science)
 
 -----
 
