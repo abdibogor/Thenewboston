@@ -2,8 +2,8 @@
 
 ### Table of Contents
 
-* [FrontEnd Web Developer](#FrontEnd-Web-Developer)
-* [BackEnd Web Developer](#BackEnd-Web-Developer)
+* [Front-End Web Developer](#Front-End-Web-Developer)
+* [Back-End Web Developer](#Back-End-Web-Developer)
 * [Mobile Developer](#Mobile-Developer)
 * [Software Engineering](#Software-Engineering)
 * [computer science](#computer-science)
@@ -16,7 +16,7 @@
   <summary>View Details</summary> 
 </details>
 
-### BackEnd Web Developer
+### Back-End Web Developer
 
 <details>
   <summary>View Details</summary> 
