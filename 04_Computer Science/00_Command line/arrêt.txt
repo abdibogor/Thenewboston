@@ -1,0 +1,5 @@
+shudtown-s: éteindre windows
+shutdown-s-t 0: éteindre windows immédiatement
+shutdown-s-f: éteindre windows et forcer l'arrêt des applications
+shutdown-s-f-t 60: eteindre windows et forcer l'arrêt des applications dans 60secondes
+shutdown-r: redémarrer l'ordinateur

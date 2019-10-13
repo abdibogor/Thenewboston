@@ -1,0 +1,6 @@
+1.dir
+2.CD Desktop
+3.Dir
+4.cd .. remove back
+5.dir Desktop\Toutes Bloc notes
+6. dir /a

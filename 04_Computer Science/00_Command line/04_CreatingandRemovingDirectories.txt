@@ -1,0 +1,2 @@
+mkdir Bacon(créer pour toi)
+rmdir Bacon(créer pour toi)

@@ -1,0 +1,1 @@
+chkdsk lecteur/F permet de verifier l'état de disque dur, et de corriger les erreurs

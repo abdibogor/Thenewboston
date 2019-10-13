@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+XHTML est HTML écrit en XML.
+
+Qu'est-ce que XHTML?
+
+XHTML signifie E X tensible H yper T ext M arkup L anguage
+
+XHTML est presque identique au HTML
+
+XHTML est plus strict que HTML
+
+XHTML est défini en HTML comme une application XML
+
+XHTML est supporté par tous les principaux navigateurs.
+
+
+Les différences les plus importantes du HTML:
+
+Structure du document
+Le DOCTYPE XHTML est obligatoire
+
+L'attribut xmlns dans <html> est obligatoire
+
+<html>, <head>, <title> et <body> sont obligatoires
+
+
+Éléments XHTML
+
+Les éléments XHTML doivent être correctement imbriqués
+
+Les éléments XHTML doivent toujours être fermés
+
+Les éléments XHTML doivent être en minuscules
+
+Les documents XHTML doivent avoir un élément racine
+
+
+Attributs XHTML
+
+Les noms d'attributs doivent être en minuscules
+
+Les valeurs d'attribut doivent être indiquées
+
+La minimisation d'attribut est interdite

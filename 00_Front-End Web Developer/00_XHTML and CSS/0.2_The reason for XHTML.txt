@@ -1,0 +1,4 @@
+The reason for XHTML to be developed was convoluted browser specific tags.
+
+La raison pour laquelle XHTML a été développé était des tags spécifiques à un navigateur compliqués.
+

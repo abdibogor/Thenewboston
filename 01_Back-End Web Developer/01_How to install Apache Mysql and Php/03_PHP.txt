@@ -1,0 +1,13 @@
+windows.php.net/download/
+
+you can download your choice 86/32 - 64bits
+zip files
+
+extract file
++ rename file php-7.2.10-nts-Win32-VC15-x64 replace to php
+
+Apache to connect php
+Open to editor software
+Open - config - httpd.config
+
+to bottom 

@@ -1,0 +1,11 @@
+cmd
+ipconfig
+shutdown/I
+et enfin un petit affiche qui ajoute l'adresse ip que tu veux éteindre
+
+
+
+netview
+shutdown-i
+shutdown-a(c'est-à-dire annuel)
+

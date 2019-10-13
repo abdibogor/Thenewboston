@@ -1,0 +1,4 @@
+dir affiche le contenu du repertoire
+
+md abdibogoreh(repertoire)
+Ren(fichier1 doc fichier2.doc) permet de renommer un fichier.

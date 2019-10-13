@@ -14,12 +14,18 @@
 
 <details>
   <summary>View Details</summary> 
+   
+   
+  
 </details>
 
 ### Back-End Web Developer
 
 <details>
   <summary>View Details</summary> 
+   
+   
+  
 </details>
 
 ### Mobile Developer 

@@ -1,0 +1,11 @@
+netshwinksock reset all= Procédure de réinitilisation des protocoles Tcp/ip pour réparer le réseau.
+
+ipconfig
+ipconfig/all affiche toute les propriétes ip de la carte réseau
+ipconfig/renew  renouvelle l'adresse ip de la carte réseau
+ipconfig/release libere l'adresse ip en fin de connection
+ipconfig/flushdns : vide le cache dns
+ipconfig/registerdns: actualise le bail dhcp
+
+netsat : permet de voir tout les ports actifs en tcp et UDP de la machine permet la détection de logiciel malveillants comme un trojan
+netsat/a: affiche tous les ports actifs et inactifs en tcp et UDP d ela machine.

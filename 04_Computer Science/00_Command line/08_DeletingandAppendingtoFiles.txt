@@ -1,0 +1,4 @@
+cd desktop
+MD Test 
+ren Test Renamed(rename the folder)
+rd renamed (delete)

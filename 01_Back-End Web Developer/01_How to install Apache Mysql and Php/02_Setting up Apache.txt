@@ -1,0 +1,35 @@
+https://www.apachelounge.com/download/
+
+Apache 2.4.35 Win64
+You have to download this Apache 2.4.35 Win64
+
+you have to modify apache24 to apache
+
+you need to editor your choice
+for me i use notepad++
+
+1.Apache
+2.Conf
+3.http.conf
+
+select Apache24
+replace to c:/Apache
+
+serverName www.example.com: 80 replace to 
+#ServerName localhost:80
+
+save
+
+
+open cmd
+cd \Apache24\bin
+httpd.exe (it's running)
+httpd.exe -k install -n "Apache"
+
+
+good comments
+apache 24  == touche f4 = cmd
+dir 
+cd bin
+dir 
+

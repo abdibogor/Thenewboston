@@ -1,0 +1,8 @@
+attrib
+echo hey > bacon.txt
+dir
+cd ../..
+attrib
+attrib +h bacon.txt entrée
+attrib
+attrib +r -h bacon.txt

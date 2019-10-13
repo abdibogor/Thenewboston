@@ -1,0 +1,9 @@
+wmic logicaldisk get name
+cd ../.. /..
+E: 
+dir 
+cls
+c: 
+cls
+c:\Users\ASUS PC>
+dir

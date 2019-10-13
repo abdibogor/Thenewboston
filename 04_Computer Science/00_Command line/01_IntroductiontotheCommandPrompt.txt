@@ -1,0 +1,5 @@
+cd Desktop
+cd ... (c'est à dire retourné)
+cd Desktop\Videos  entre
+cd ../..
+
