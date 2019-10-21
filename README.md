@@ -14,7 +14,7 @@
 
 <details>
   <summary>View Details</summary> 
-01. XHTML and CSS = (http://tinyurl.com/mcyrowc)
+01. XHTML and CSS = [http://tiny.cc/bgiwez](http://tiny.cc/bgiwez)
    
   
 </details>
