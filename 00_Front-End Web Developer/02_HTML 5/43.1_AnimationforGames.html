@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="UTF-8">
+<title>Abdibogoreh</title>
+<style>
+	body {
+		margin: 10px auto;
+	}
+		canvas {
+			border: 4px double red;
+			margin: 10px auto;
+}
+</style>
+ </head>
+ <body>
+ <!--43 - Animation for Games!-->
+ <section id="main">
+ <canvas id="canvas8" width="600" height="400"> 
+		Canvas not supported 
+	</canvas>
+ </section>
+ 
+ <script language="javascrip" type="text/javascript">
+function animateMe(e) {
+canvas8.clearRect(0,0,600,400);
+var xPos = e.clientX;
+var yPos = e.clientY;
+canvas8.fillRect(xPos, yPos, 100, 100);
+
+}
+function doAnim() {
+var y = document.getElementById("canvas8");
+canvas8 = y.getContext('2d');
+
+window.addEventListener("mousemove", animateMe, false);
+}
+
+window.addEventListener('load', doAnim, false);
+
+</script>
+ </body>
+ </html>
