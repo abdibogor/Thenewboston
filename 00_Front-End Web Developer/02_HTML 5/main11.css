@@ -1,0 +1,46 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+h1{
+	font: bold 20px Tahoma;
+}
+
+h2{
+	font: bold 15px Tahoma;
+}
+
+header, section, footer, aside, nav, article, hgroup{
+		display:block;
+}
+body{
+	text-align:center;
+}
+
+#big_wrapper{
+	border: 1px solid black;
+	width: 1000px;
+	margin: 20px auto;
+	text-align:left;
+}
+
+#top_header {
+	background:yellow;
+	border: 1px solid blue;
+	padding: 20px;	
+}
+
+#top_menu {
+	background:blue;
+	color:white;
+}
+
+
+#top_menu li{
+	display:inline-block;
+	padding:5px;
+	list-style:none;
+	font: solid 15px tahoma,
+}
+	

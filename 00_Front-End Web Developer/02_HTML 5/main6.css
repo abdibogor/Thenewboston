@@ -1,0 +1,2 @@
+p:nth-child(odd){color: red;} /* impair */
+p:nth-child(even){color: blue;} /* pair */

@@ -1,0 +1,37 @@
+body{
+	text-align:center;
+}
+
+p{
+	     top: 30%;
+		 left: 50%;
+		 position: absolute;
+		 transform: translate(-50%, -50%);
+		 color: #fff;
+		 text-align: center;
+} 
+
+#box{
+	display:block;
+	margin:150px auto;
+	color:#ffffff;
+	-webkit-border-radius:10px;
+	opacity:0.6;
+	background:red; 
+	width:120px;
+	height:75px;
+	-webkit-transition:-webkit-transfrom 2s, opacity 2s, background 2s, width 2s, height 2s; 
+	text-align:center;
+	top:50%;
+	bottom:50%;
+}
+
+#box:hover{
+	        -webkit-transform: rotate(360deg);
+			opacity:1;
+			background:#1ecdf0;
+			width:450px;
+			height:110px;
+			transform: scale(1.1);			
+}
+

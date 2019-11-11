@@ -1,0 +1,20 @@
+body{
+	text-align:center;
+}
+
+#box{
+	display:block;
+	width:500px;
+	margin:50px auto;
+	padding:15px;
+	text-align:center;
+	border:7px solid blue;
+	background:yellow;
+	-webkit-transition: -webkit-transform 10s;
+}
+
+#box:hover{
+	-webkit-transform:rotate(360deg);
+	text-align:center;
+}
+
