@@ -1,0 +1,20 @@
+/*
+author: Abdibogoreh
+version: 1.35.1 * 64
+*/
+
+img {
+  width: 100%;
+}
+
+.menuBar{
+        color: white;
+        text-align: center;
+}
+
+ .button{
+        background: #777777;
+        width: 24%;
+        margin: 0 .5%;
+        float: left;
+ }

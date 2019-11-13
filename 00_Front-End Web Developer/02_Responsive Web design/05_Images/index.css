@@ -1,0 +1,25 @@
+/*
+Author: Abdibogoreh;
+software editor: Atom;
+*/
+
+body {
+      background-image: url("hardwood.jpg") repeat;
+}
+
+img {
+    /*width: 100%;*/
+    max-width: 100%;
+}
+
+.menuBar{
+        color: white;
+        text-align: center;
+}
+
+ .button{
+        background: #777777;
+        width: 24%;
+        margin: 0 .5%;
+        float: left;
+ }

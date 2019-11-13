@@ -1,0 +1,17 @@
+body {
+     background-color: #222222;
+}
+
+#wrapper {
+         background-color: white;
+         /*
+         width: 1024px
+         margin: 5px auto;
+         border: 5px solid red;
+         */
+         width: 90%;
+         margin: .4em auto;
+         border: .4em solid red;
+          /*margin: 5px auto;*/
+         /*border: 5px solid red;*/
+}
