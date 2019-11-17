@@ -1,0 +1,13 @@
+#one{
+    height: 500px;
+    width: 800px;
+    margin-bottom: 100px;
+    background:url("succes.jpg");
+}
+
+#two{
+    height:499px;
+    width:750px;
+    margin-bottom: 100px;
+    background:url('stevejobs.jpg');
+}

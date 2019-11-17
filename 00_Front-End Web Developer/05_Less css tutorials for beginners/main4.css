@@ -1,0 +1,20 @@
+.panel{
+    border: 3px solid lightblue;
+    background: silver;
+    margin: 10px;
+}
+.litte-panel{
+    border: 3px solid dodgerblue;
+    background:lightgreen;
+    margin: 10px;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.big-panel{
+    border: 3px solid dodgerblue; 
+    background: silver;
+    font-size: 15px;
+    padding: 5px;
+    margi: 5px;
+}

@@ -1,0 +1,25 @@
+@buttonBackground:#006699;
+@buttonColor: #FFF;
+@buttonPadding: 5px;
+
+@buttonBackground: #ff5500;
+@buttonColor: #fff;
+@buttonPadding: 5px;
+
+.button{
+    background:@buttonBackground;
+    color: @buttonColor;
+    padding: @buttonPadding;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.jumbo-button{
+    .button;
+    padding: @buttonPadding + 30;
+}
+
+.light-button{
+    .button;
+    background: @buttonBackground * 1.6;
+}
