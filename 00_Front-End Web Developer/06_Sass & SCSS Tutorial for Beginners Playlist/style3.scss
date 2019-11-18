@@ -1,0 +1,27 @@
+$bg-color: #000fff;
+$hover-color: green;
+$text-color: purple;
+
+nav {
+	ul {
+	background:#000fff;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ li {
+	display: inline-block;
+}
+
+ a {
+ 	color: $text-color;
+	display: block;
+	padding: 6px 12px;
+	text-decoration: none;
+}
+
+a:hover{
+	background:green;
+	}
+}
