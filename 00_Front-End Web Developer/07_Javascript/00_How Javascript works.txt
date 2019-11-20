@@ -1,0 +1,21 @@
+ 		
+		var x = 10;
+		var y = 30;
+
+		functin add(arg1, arg2){
+		
+		return arg1 + arg2;
+		}  
+		add(x,y);
+
+	DOM + CSS + Javascript Engine{  
+		JIT Compliers
+		(Just In Time) Compilers
+	}
+
+	DOM {
+	HTML + CSS + .JS	
+}  
+
+	Jit compilateur
+	11010
