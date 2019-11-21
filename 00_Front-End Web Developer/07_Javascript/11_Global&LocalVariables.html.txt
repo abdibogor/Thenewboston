@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html lang="DJ">
+<meta charset utf="8">
+<head>
+<title>developper</title>
+<link rel="shortcut icon" type="image/x-icon" href="abdi.jpg"/>
+</head>
+<body>
+
+<script type="text/javascript">
+	     var girl = "kelsey";
+    function spit(){
+        document.write(girl); /* "<br/>" */
+    } 
+        spit();
+        document.write(girl);
+
+</script>
+
+</body>
+</html> 
