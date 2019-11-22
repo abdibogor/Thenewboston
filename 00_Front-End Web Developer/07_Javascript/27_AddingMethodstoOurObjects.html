@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+        <script type="text/javascript"> 
+                 function people (name, age){
+                this.name = name;
+                this.age = age;
+                this.yearsUntilRetire = yearsLeft;
+            }
+
+            function yearsLeft(){
+                var numYears = 63 - this.age;
+                return numYears;
+            }
+
+            var natalie = new people ("Natalie Portman", 28);
+            var abdibogoreh = new people("abdibogoreh", 24);
+
+                /*
+                Appelez la méthode par le nom de propriété que vous avez spécifié dans la fonction constructeur, plutôt que le nom de la fonction.
+           function person(name, age) {
+                this.name= name;  
+                this.age = age;
+                this.yearOfBirth = bornYear;
+                    }
+
+            function bornYear() {
+            return 2016 - this.age;
+                } 
+
+                var p = new person("A", 22);
+                */
+        </script>
+
+<title>Abdibogoreh</title>
+<link rel="shortcut icon" type="image/x-icon" href="abdi.jpg"/>
+</head>
+<body>
+
+<script type="text/javascript">
+                    /*
+             document.write(p.yearOfBirth());
+             */
+             document.write(abdibogoreh.yearsUntilRetire());
+</script>
+
+</body>
+</html> 
