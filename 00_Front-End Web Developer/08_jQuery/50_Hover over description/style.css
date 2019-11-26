@@ -1,0 +1,11 @@
+#hoverdiv {
+			display: none;
+			position: absolute;
+			font-size: 14px;
+			background-color: #fff;
+			color: #404040;
+			border: 1px solid #999;
+			padding: 7px;	
+			top: 20px;
+			left: 20px;
+}
