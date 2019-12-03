@@ -1,0 +1,1 @@
+$_GET['var_name']
