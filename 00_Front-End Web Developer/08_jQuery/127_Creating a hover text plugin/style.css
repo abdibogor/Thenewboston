@@ -1,0 +1,7 @@
+#hoverText {
+	    display: none;
+		position: absolute;
+		background-color: silver;
+		border: 1px solid green;
+		padding: 6px;
+} 
