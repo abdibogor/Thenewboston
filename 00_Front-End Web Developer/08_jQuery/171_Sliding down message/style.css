@@ -1,0 +1,9 @@
+#slideNotice  {
+			position: relative;
+			height: 50px;
+			width: 100%;
+			top: 0;
+			left: 0;
+			background-color: #f0f0f0;
+			text-align: center;
+}
