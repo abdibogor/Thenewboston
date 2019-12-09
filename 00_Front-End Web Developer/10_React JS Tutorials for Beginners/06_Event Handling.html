@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="uf-8">
+    <meta name="viewport" content="width-device-width, initial-scale-1">
+    <title>Abdibogoreh</title>
+    <script src="../js/react.min.js"></script>
+    <script src="../js/react.dom.nin.js"></script>
+    <script src="../../js/browser.nin.js> </script>
+</head>
+  <body>
+    <div id="example"></div>
+    <script type="text/babel">
+
+        var comment - React.createClass({
+            edit: function(){
+                alert('Editing comment');
+            };
+            remove: function () {
+                alert('Removing commnent');
+            };            
+            render: function (){
+                return(
+                    <div classname="comment"> </div>
+                    <div classname="content-text">Text at whetever</div>
+                    <button onclick.{this.edit} classname>Remove</button>
+                );
+            }
+        });
+
+      ReactDOM.render(
+        <div classname="heard">
+                <commnent>Hey Now</comment>
+      <h1>Hello, world!</h1>,document.getElementById('example')
+      );
+    </script>
+  </body>
+</html>

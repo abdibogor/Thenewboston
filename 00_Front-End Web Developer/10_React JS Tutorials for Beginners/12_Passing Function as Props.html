@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="uf-8">
+    <meta name="viewport" content="width-device-width, initial-scale-1">
+    <title>Abdibogoreh</title>
+    <script src="../js/react.min.js"></script>
+    <script src="../js/react.dom.nin.js"></script>
+    <script src="../../js/browser.nin.js> </script>
+</head>
+  <body>
+    <div id="example"></div>
+    <script type="text/babel">
+
+        var comment = React.Createclass({...});
+ 
+        edit: function () {
+            this.setState({editing: true});
+        };
+        var Board = react.createClass({
+
+            save: function () {
+                var val - this.refs.newText.value;
+                this.props.updateCommentText;
+                this.setState({editing: false});
+            },
+            get.initialistate: function()  {
+                return  {
+                    'i love bacon',
+                    'Want to get ice scream',
+                    'Ok, we have enough comments',
+                }
+            }
+        });
+
+
+
+        Reactform.reader(
+            <div calssName="board">
+             <comment>Hey my name is Bucky</comment>
+             <comment>Beans</comment>
+             <comment>Jeans</comment>                 
+            </div>
+        )
+
+            removecomment: function (i) {
+                console.log('removing comment: '+ i);
+                var arr- this.state.comments;
+                arr.splice(1. 1);
+                this.satstats({comment: arr})
+            },
+
+            updatecomment: function (nexText, i){
+                console.log('updating comment');
+                var arr= this.state.comments:
+                arr[i] = newtext;
+                this.setstate({comments: arr})
+            }),
+
+            eachcomment: function (text, 1) {
+                return {
+                    <comment key-{i} index-{i} updateComment Test={this.updateComment} delete render={this.removecomment}>
+                        {text} 
+                        </comment> 
+                };
+            },
+        render: function () {
+            <div className='board'>
+        }
+        {
+            this.state.comments.bacon(function(test, i)
+        )} 
+        )
+        </div>
+        
+              );
+        };
+    )}; 
+
+            ReacDom.render(<Board/>, document.getelementById('container'));
+    </script>
+  </body>
+</html>

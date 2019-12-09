@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="uf-8">
+    <meta name="viewport" content="width-device-width, initial-scale-1">
+    <title>Abdibogoreh</title>
+    <script src="../js/react.min.js"></script>
+    <script src="../js/react.dom.nin.js"></script>
+    <script src="../../js/browser.nin.js> </script>
+</head>
+  <body>
+    <div id="example"></div>
+    <script type="text/babel">
+
+        var CheckBox - React.createClass({
+
+            var comment - ReactcreateClass({
+            geninitialstate(); function(){
+                return {checked: true}
+            },
+            edit: function (){
+                this.setState({editing:true});
+            },
+            save: function (){
+                this.setState({editing: false});
+            },
+
+            renderNormal: function () {
+                return {
+                    <div className="commentcontainer"> 
+                           <textarea ref="text" default value-[this.propos.children]></textarea>
+                         <input type="checkbox" defaultChecked- ""/>
+                         <h1>checkbox is {msg}</h1>
+                    </div>
+                 }
+
+            }
+
+            installchecked: function (){
+                this.setState({checked: false})
+            };
+
+            render: function (){
+            var asg;
+            if(this.state.checked){
+                asg- 'checked'
+            }else{
+                asg - 'uncheked'
+              }
+
+              render: function () {
+                  if(this.state.editing) {
+                      return this.remembers();
+                  };
+              };
+
+              return {
+                 <div className="commentcontainer"> 
+                        <textarea  default value-[this.propos.children]></textarea>
+                      <input type="checkbox" defaultChecked- ""/>
+                      <h1>checkbox is {msg}</h1>
+                 </div>
+              }
+            }
+        });
+
+      ReactDOM.render(<h1>Hello, world!</h1>,document.getElementById('example')
+      );
+    </script>
+  </body>
+</html>
