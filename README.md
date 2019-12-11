@@ -13,8 +13,7 @@
 ### Front-End Web Developer
 
 <details>
-  <summary>View Details</summary> 
-  
+  <summary>View Details</summary>  
   
 01. XHTML and CSS = [http://tiny.cc/bgiwez](http://tiny.cc/bgiwez)
    
@@ -40,10 +39,12 @@
 
 <details>
   <summary>View Details</summary> 
+
 </details>
 
 ### computer science
 
 <details>
   <summary>View Details</summary> 
+
 </details>
