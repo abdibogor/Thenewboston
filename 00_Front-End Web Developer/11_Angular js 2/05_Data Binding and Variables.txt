@@ -1,0 +1,16 @@
+app.component.ts
+import {Config} from './config.service';
+
+export class AppComponent {
+	
+     mainHeading = Config.MAIN_HEADING;
+
+}
+
+create in this file
+config.service.ts
+export class Config{
+	static MAIN_HEADING: string = "My Favorite Videos";
+}
+
+

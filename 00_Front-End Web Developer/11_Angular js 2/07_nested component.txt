@@ -1,0 +1,85 @@
+/app/app.component.ts
+
+import { Component } from 'angular2/core';
+
+import { RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from 'angular2/router';
+
+import {NavigationComponent} from './navigation/navigation.component';
+
+
+
+@Component({
+   
+	 selector: 'my-app',
+   
+	 templateUrl: 'app/app.component.html'
+
+})
+	
+export class MyApp {
+
+}
+
+
+/app/app.component.html:
+<nav class="pink accent-3" role="navigation">
+   
+ <na-navigation>Loading...</na-navigation> // <-- this is my not working attempt :(
+
+</nav>
+
+<footer class="page-footer">
+    
+<!--footer-->
+
+</footer>
+
+
+/app/navigation/navigation.component.ts:
+import { Component, OnInit } from 'angular2/core';
+
+import { MenuItem } from './menuItem';
+
+
+
+@Component({
+  
+selector: 'na-navigation',
+  
+templateUrl: 'app/navigation/navigation.component.html'
+
+})
+
+export class NavigationComponent implements OnInit {
+
+  
+menuItems: MenuItem[] = [];
+
+  
+ngOnInit() {
+    
+  this.menuItems.push(new MenuItem("Sign in", "signIn"));
+   
+   this.menuItems.push(new MenuItem("Create account", "createAccount"));
+ 
+ }
+
+
+/app/navigation/navigation.component.html:
+
+<div class="nav-wrapper container">
+  
+  <a id="logo-container" href="#" class="brand-logo">Logo</a>
+  
+  <ul class="right hide-on-med-and-down">
+  
+      <li *ngFor="#menuItem of menuItems">
+   
+         <a>{{menuItem.label}}</a>
+     
+   </li>
+   
+ </ul>
+
+</div>
+

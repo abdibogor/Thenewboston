@@ -1,0 +1,7 @@
+go to angular then app ts
+then app.component.ts
+
+index.html
+<my-app>loading...</my-app> to
+<my-app>waiting to load...</my-app>
+

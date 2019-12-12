@@ -1,0 +1,17 @@
+1.nodejs.org/en/download/
+2.github.com/buckyroberts/angular-2-template
+3. decompresser in winrar
+rename "angular -2-template-youtube
+
+
+right click angular -2 -template-youtube in click Open Command Window here
+
+1.cd Desktop/angular
+2.npm install
+3.cls
+4.npm start
+
+5. after that 
+angular
+app  == ts == app.component.ts
+'<h1>Angular 2 Template</h1>' modify to '<h1>Angular 2 your name</h1>'

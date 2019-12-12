@@ -1,0 +1,29 @@
+create playlist.component.html
+<h2>My playlist will eventually go here</h2>
+
+playlist.component.ts
+
+import {Component} from 'angular2/core';
+
+@component({
+			selector: 'playlist',
+			templateUrl: 'app/ts/playlist.component.html' 
+})
+
+export class PlaylistComponent{}
+
+video.ts
+export class Video {
+	id:number;
+	title:string;
+	videoCode:string;
+	desc:string;
+	
+	constructor(id:number, title:string,  videoCode:string, desc:string){
+		this.id = id;
+		this.title = title;
+		this.videoCode = videoCode;
+		this.desc = desc;
+	}
+}
+
