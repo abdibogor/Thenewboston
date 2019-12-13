@@ -1,0 +1,22 @@
+JavaScript was invented by Brendan Eich in 1995, and became an ECMA standard in 1997.
+ECMA-262 is the official name of the standard. ECMAScript is the official name of the language.
+JavaScript a été inventé par Brendan Eich en 1995, et est devenu une norme ECMA en 1997.
+ECMA-262 est le nom officiel de la norme. ECMAScript est le nom officiel de la langue
+
+
+ Browser Support
+
+* ECMAScript 3 is fully supported in all browsers.
+
+
+  ECMAScript 5 is fully supported in all modern browsers.
+
+
+* ECMAScript 6 is partially supported in all modern browsers.
+
+
+  ECMAScript 7 is poorly supported in all browsers.
+
+
+
+* Internet Explorer 9 does not support ECMAScript 5 "use strict".
