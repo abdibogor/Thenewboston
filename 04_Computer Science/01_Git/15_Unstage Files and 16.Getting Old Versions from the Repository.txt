@@ -1,0 +1,30 @@
+1. cd Desktop/BRM
+2. git log
+3. git add .
+4. git status
+5. git reset HEAD profile.html
+Unstaged changes  after reset:
+	profile.html
+6. git status
+
+The git stash command temporarily caches any changes you've made to your working copy so you can switch to something else, and then come back and recover them later.
+The git stash command takes your uncommitted changes, both staged and unstaged, and savs them for later use.
+git stash
+
+A stage can also be reset using the reset command:
+git reset 'file name'
+
+
+
+	16.Getting Old Versions from the Repository
+1. Desktop/BRM 
+2. git log
+3. git commit -am "Made a icon for the forum"
+4. git status
+5. git log
+6. git commit -am "My name is kevin and I am dumb"
+7.git log
+8. git checkout  01e7dba -- index.html
+9.git status
+10. git commit -am "undoing Kevins mistakes"
+11. git status

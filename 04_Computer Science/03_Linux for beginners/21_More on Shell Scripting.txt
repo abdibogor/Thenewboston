@@ -1,0 +1,11 @@
+#!/bin/sh
+
+if [  $1 = hotdog ]; then
+echo "You typed hotdog"
+else 
+echo "You did not type hotdog
+echo " it was "'  $1 "' 
+
+for x in dog cat fish; do 
+	echo $x
+done

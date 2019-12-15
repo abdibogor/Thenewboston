@@ -1,0 +1,23 @@
+I want to write the following steps by steps.
+
+12.clear
+13.jobs 
+14.^C
+15.^C
+16.fg %1
+17.clear
+18.xlogo
+19.fg %1
+20.clear
+21.xlogo &
+22.ps
+23.kill 2744
+24.clear
+25.xlogo &
+26.ps
+27.kill -STOP 2749
+28.kill -CONT 2749
+29.clear
+30.xlogo
+31.xlogo
+32.clear

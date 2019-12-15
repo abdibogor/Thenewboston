@@ -1,0 +1,48 @@
+19. pwd 
+20. git log
+21. git log --author="your name" e.g: git log --author="abdibogor"
+22. git log --author="Wendy" doesn't exist Wendy
+23. git status
+24. git status
+25. create the new file => $ touch second.txt
+    write => This is the second text file that we are making
+    save as => second.txt
+
+    create third.txt
+    write => this is a random dumb third file
+    save as third.txt
+
+26. clear
+27. git status
+    on branch master
+    untracked files:
+    second.txt
+    third.txt
+Nothing added to commit but untracked files present(use "git add" to track)
+
+ If you want to see the history of your commits, use the git log command:
+ $ git log
+
+ This command inversely lists your commits, their dates, authors, and some other related information about each commit.
+
+After committing the changes, the next step is pushing local repository to the Git server on a remote location(Such as GitHub).
+Too many commits can result in a series of snapshots with minor changes that make reverting to a meaningful point difficult.
+
+    6.Git Workflow
+
+26. git add second.txt
+27. git status
+28. git commit
+29. git commit -m "adding the second file to the repository"
+30. git log
+31. git status
+on branch master
+untracked files:
+ third.txt
+ nothing added to commit but untracked files present
+32. git add third.txt
+33. git status
+34. git commit -m "the third file is now joining its friends"
+35. git log
+
+Executing git status after a git commit verifies that tracked files are up to date.

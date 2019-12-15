@@ -1,0 +1,9 @@
+I want to write the following steps by steps.
+
+1.Change "use the system fixed width font" close
+2. pwd
+3. cat Desktop/story(name of document).
+4. ls 
+5. ls -l
+6. clear
+7. ls -la

@@ -1,0 +1,22 @@
+1. github.com
+2.  sign + sous New respository 
+ i understand all tapes
+
+3. git Bash en tant qu'administrateur
+4. pwd
+5. cd Desktop/udemy
+6. ls
+7. clear
+8. git init
+9. git add . "The git add "file name" command tells git to track the file."
+10. git commit -m "the first commit"
+11. git log  //if you want to see the history of your commits, use the git log command:
+This command inversely lists your commits, their dates, authors, and some other related information about each commit.
+After committing the changes, the newt step is pushing the local repository to the Git server on a remote location(such as GitHub).
+
+	18.Pushing to a GitHub Repository
+11. git remote add abdi(choisir un nom) https://github.com/abdibogor/alison
+12. git remote
+13. git push -v (githubRepo)(c'est à toi choisir un nom) master
+
+The -u Tells git to remember th parameters, so that next time we can simply run git push and git will know what to do.

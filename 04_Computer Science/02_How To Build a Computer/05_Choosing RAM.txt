@@ -1,0 +1,3 @@
+DDR = Decent
+DDR2 = Sweet Choice
+DDR3 = Easy Money Bags!

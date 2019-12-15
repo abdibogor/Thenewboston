@@ -1,0 +1,7 @@
+1. + sub-menu New Organization 
+    Create new Repositories Illimite
+    Sign Up your team then Create an organization account 
+    Choose your plan (free).
+    e.g Add members to thenewboston developpers
+
+ 

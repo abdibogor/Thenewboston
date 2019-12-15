@@ -1,0 +1,10 @@
+I want to write the following steps by steps.
+
+1. sudo apt-get update
+2. java -version
+3. php5 - version
+4. sudo apt-get install php5
+5. cd 
+6. cd pycharm-community-4.5.3/bin
+7. pycharm-community-4.5.3/bin$ bash pycharm.sh
+8. 

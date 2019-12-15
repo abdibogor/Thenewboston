@@ -1,0 +1,13 @@
+1. add description in respostory
+2. i understand very well
+git-commit - Record changes to the repository
+
+
+
+		21. Branches
+1. donne un nom switch Branches
+
+
+22 - GitHub Watch Star and Fork
+I understand very well.
+

@@ -1,0 +1,55 @@
+$ touch first.txt
+write I am a ham and some people call me sam. This is our first commit.
+32. git status
+on branch master 
+changes not staged for commit:
+  modified: first.txt
+no changes added to commit (use "git add")
+33. git add first.txt
+34. git status
+on branch master 
+on branch master
+changes to be committed:
+(use "git reset HEAD file .." to unstage)
+35. git commit -m "modified the first file"
+36. git status
+on branch master
+nothing to commit, working directory clean
+
+touch second.txt
+write changes to second
+
+touch third.txt
+write changes to third
+
+37. git status
+  	modified: second.txt
+  	modified: third.txt
+
+37. git add .
+38. git status
+39. git commit -m "this is how you can edit multiplie files"
+40. git status
+
+	8.Viewing the Changes That You Made	
+touch first 
+I am a ham and some people call me sam. This is our first commit.
+Bucky is the best dude eva!
+1. git status
+on branch master
+	modified: first.txt
+no changes added to commit (use "git add" and/or git commit -a")
+2. git diff   // explaining "We can check what is different from our last commit by using the git diff command.
+3. git add first.txt
+4. git commit -m "we are commiting our changes"
+5. git status
+on branch master
+nothing to commit, working directory clean
+6. git diff
+7. we have to change something in file second or third
+8. git status
+9. git diff
+10. git add .
+11. git commit -m"here are some awesome changes to two files"
+12. git status
+13. git diff (You can use diff to look at changes within files that have already been)

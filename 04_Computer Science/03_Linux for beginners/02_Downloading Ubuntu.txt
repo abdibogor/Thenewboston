@@ -1,0 +1,6 @@
+I want to write the following steps by steps.
+
+1. www.ubuntu.com
+2. choose Desktop
+3. Click Download Ubuntu
+4. not now take me  download(click)

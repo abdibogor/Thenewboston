@@ -1,0 +1,6 @@
+speed RAM
+
+
+When it comes to picking memory for your build, there are numerous options. If you find the whole process overwhelming, the easiest answer is to simply buy 1.5-volt DDR3-1600 modules with CAS 9 timings or 1.2-volt DDR4-2133 modules with CAS 15 timings, depending on your platform. The DDR3 sticks are universally supported on many motherboards and the DDR4 sticks are universally supported on Intel’s X99 and Skylake platforms. Even better, both are inexpensive and readily available as both 4 and 8GB sticks. If that solution is a bit too simple for you then checkout our Best Memory column, which provides recommendations for both DDR3 and DDR4 kits.
+
+There are noticeable performance benefits for similarly-priced DDR3-1866 (PC3-14900), particularly if you're using a CPU's on-die graphics engine for gaming, and this speed functions normally, even with processors that are not officially designated to use it (primarily older models or low-energy platforms). Furthermore, the same easy benefits of DDR3-1866 are even available with most DDR3-2133 kits and modern performance-oriented processors.

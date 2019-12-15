@@ -1,0 +1,17 @@
+I want to write the following steps by steps.
+
+1. sudo groupadd nurses
+2. sudo usermod -a -G nurses mom
+3. sudo userdel mom
+4. pwd
+5.cd Desktop
+6. cd ..
+7. cd ../..
+8. pwd
+9. cat Shadow
+10. sudo cat shadow
+11. clear
+12. ls -la
+13. cd 
+14.pwd
+15. clear

@@ -1,0 +1,15 @@
+1. 
+folder dogs
+the barre Description " add description in respostory "
+2. when you are cloning in the folder dogs 
+when you can modify something index.html
+then Open the software github 
+click dogs
+add the text Summary
+
+
+
+		
+
+
+

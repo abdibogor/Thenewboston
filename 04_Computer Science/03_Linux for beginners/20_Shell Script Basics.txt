@@ -1,0 +1,8 @@
+I want to write the following steps by steps.
+
+1. #!/bin/sh
+#
+# this program displays stuff in a directory.
+
+echo "Program is starting..."
+ls -la

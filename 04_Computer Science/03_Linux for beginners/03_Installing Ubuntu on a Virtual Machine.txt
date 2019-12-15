@@ -1,0 +1,10 @@
+I want to write the following steps by steps.
+
+1.create a New Virtual Machine.
+2.choose Typical(recommended)
+3.choose "installer disc image file(iso)
+4.then complete diagram and choose destination location in ubuntu
+5. Specify Disk Capacity select " Store virtual disk as a single file" 
+6. Customize Hardware " Memory "4GB"
+7. Finish
+

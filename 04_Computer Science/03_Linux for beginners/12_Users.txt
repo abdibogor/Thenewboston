@@ -1,0 +1,8 @@
+I want to write the following steps by steps.
+
+1. cd 
+2. cd Desktop
+3. create empty file
+4. sudo useradd mom
+5. give the password the useradd
+6. enter

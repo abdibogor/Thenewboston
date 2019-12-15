@@ -1,0 +1,4 @@
+CPU == Central Processeur Unit
+
+AMD=Good
+Intel=Good

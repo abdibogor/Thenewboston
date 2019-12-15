@@ -1,0 +1,7 @@
+Names in cpu
+
+Single Cores= Wimpy
+Quad Cores = Awesome
+
+AMD Athlon 64*2 2.0GhZ
+Dual Core, AM2 Socket

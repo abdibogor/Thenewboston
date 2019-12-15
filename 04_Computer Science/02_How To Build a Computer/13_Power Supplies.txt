@@ -1,0 +1,6 @@
+Power Supplies == Alimentations
+
+they are two power Supplies
+ATX and ATX12v
+Go with ATX 12V NOT ATX
+Silverstone 400W 12V PSU

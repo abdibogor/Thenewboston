@@ -1,0 +1,18 @@
+0. cd Desktop/Tuna
+first.txt rename to home
+1. git status
+on branch master
+2. git add home.txt
+3.git rm first.txt
+rm 'first.txt'
+4. git status
+on branch master
+5. git commit -m "renamed first.txt to the home.txt"
+6. git mv second.txt  pudding.txt 
+7.Create New Folder inside Tuna
+  mkdir LoveNotes
+8. git mv pudding.txt LoveNotes/patty.txt
+mv means is move
+9. git status
+on branch master
+10. git commit -m "renamed file and put in LoveNotes folder"

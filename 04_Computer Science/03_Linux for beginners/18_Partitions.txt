@@ -1,0 +1,6 @@
+I want to write the following steps by steps.
+
+Edit virtual machine settings.
+
+1. sudo apt-get install gparted
+2. sudo gparted

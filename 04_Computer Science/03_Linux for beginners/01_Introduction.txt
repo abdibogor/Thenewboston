@@ -1,0 +1,12 @@
+Linux est, au sens restreint, le noyau de système d'exploitation Linux, et au sens large, tout système d'exploitation fondé sur le noyau Linux. 
+Cet article couvre le sens large.
+
+
+À l'origine, le noyau Linux a été développé pour les ordinateurs personnels compatibles PC, et devait être accompagné des logiciels GNU pour constituer un système d'exploitation. 
+Les partisans du projet GNU promeuvent depuis le nom combiné GNU/Linux. 
+Depuis les années 2000, le noyau Linux est utilisé sur du matériel informatique allant des téléphones portables aux super-ordinateurs, et n'est pas toujours accompagné de logiciels GNU. 
+C'est notamment le cas d'Android, qui équipe plus de 80 % des smartphones.
+
+
+Vmware.com
+Download vmware 64bit

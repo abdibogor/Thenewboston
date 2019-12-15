@@ -1,0 +1,19 @@
+I want to write the following steps by steps.
+
+1. ls
+2. cd Desktop
+3. ls
+4. ls
+5. cd ..
+6. pwd
+7. cd Desktop
+8. mkdir other ( create un folder)
+9. rmdir other (delete in this folder)
+10. touch Story
+11. touch Bacon 
+12. rm Bacon( delete file ).
+13. cp story story2 ( copy).
+14. mv story2  other/story 2 ( move ).
+15. mv story Tuna
+16. cd ..
+17. clear

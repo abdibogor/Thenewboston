@@ -1,0 +1,17 @@
+I want to write the following steps by steps.
+
+1.ps
+2.ps ax
+3.clear
+4.ps
+5.clear
+6.ls
+7.clear
+8.ls
+9.xlogo
+10.xlogo &
+11.ls
+12.ps
+10.clear
+11.xlogo
+12.

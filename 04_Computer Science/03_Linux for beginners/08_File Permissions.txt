@@ -1,0 +1,9 @@
+I want to write the following steps by steps.
+
+1. ls -l
+2. chmod o+w Bacon(name of users)
+3. ls -l
+4. chmod o-w Bacon
+5. ls -l
+6. clear
+7. 

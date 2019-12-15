@@ -1,0 +1,8 @@
+1.cd Desktop/Dogs
+2. git status
+fatal: Not a git repository (or any for the parent diretories): .git 
+3. git init
+4. git status
+5. git add .
+The file will have its original line endings in your working directory.
+6. git commit -m "This is the vey first commit"

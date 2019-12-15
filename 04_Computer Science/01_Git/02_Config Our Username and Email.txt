@@ -1,0 +1,8 @@
+  you have to type like this
+1. git config --global  user.name "abdibogor"
+2. git config --global user.email "bogoreh_code@outlook.com"
+3. git config --list  
+4. clear
+5. git config user.email
+6. git help
+7. git help commit

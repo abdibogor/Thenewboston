@@ -1,0 +1,7 @@
+I want to write the following steps by steps.
+
+1. gzip grocery\ list
+2. gunzip grocery\ list.gzip
+3. tar cvf bogoreh.tar Grocery\ List Favorite\ Movies
+4. tar xvf bogoreh.tar
+5. 

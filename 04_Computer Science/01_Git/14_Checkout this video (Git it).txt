@@ -1,0 +1,16 @@
+1. cd Desktop/Dogs
+2. git status
+on branch master 
+ modified: index.html
+no changes added to commit (use "git add" and/or "git commit -a")
+3. git checkout -- index.html
+4. git status
+on branch master
+nothing to commit, working directory clean
+
+
+explain checkout
+This removes the file from the staged status, meanning that all the changes will still remain in the file.
+To reset the file to the latest committed version, the checkout command can be used:
+git checkout -- 'file name'
+

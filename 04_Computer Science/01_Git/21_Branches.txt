@@ -1,0 +1,23 @@
+1. donne un nom switch Branches
+c'est different master et donner ton nom branch(eg: bogoreh)
+branch bogoreh , write something in readme after that click branch
+bar bogoreh  click New pull request
+then Pull requests "click Merge Pull request"
+
+	Explain 
+Branches are a very important part of git.
+Branching allows to make a "copy" of your working project and change it without affecting(saameynaya "affectant") the main branch (master branch), giving an opportunity()
+to work on the same project with different commits
+When you want to add a new feature(fonctionnalité) or fix a bug(punaise)
+-no matter how big or how small - you create a new branch to encapsulate your changes.
+
+Creating a new branch is done using the branch command:
+git branch my_new_branch
+
+Then we need to switch to the branch using the checkout command:
+git checkout my_new_branch
+
+Then we need to switch to the branch using the checkout command:
+git checkout -b my_new_branch
+
+Now, every change made in the new branch called my_new_branch won't effect the master branch.

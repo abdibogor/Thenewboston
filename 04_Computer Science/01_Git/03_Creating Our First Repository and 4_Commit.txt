@@ -1,0 +1,40 @@
+1. mkdir Tuna
+2. pwd
+3. cd ~
+4.  pwd
+5.  cd ..
+6.  ls
+7.  cd ASUS PC
+8.  pwd
+9.  ls
+10. cd Desktop
+11. cd Tuna
+12. ls
+13.  git init
+
+  	Explain
+if you want a resporitory in a new folder, then you will need to create a new directory(folder) and then switch to that directory. 
+This is done at the command prompt(often indicated with $ or C:)
+With The Mkdir command for creating a directory and 
+                cd for navigating to a directory.
+
+Once inside the appropriate folder, use the git init command to turn the directory into an empty Git repository:
+ git init
+
+4. Commits
+
+13. pwd
+14. ls 
+15. ls -la   //files but also all the hidden stuff as 
+16. clear
+17. (open and write in text notepad++)
+    I am Sam and I like ham. This is our first commit.
+    save as first.txt
+18. git add .
+19. git commit -m "This is our first commit" 
+
+   Explain 
+The git commit command save the state of your project by adding snapshots.
+The git commit can include the -m flag with a message describing what we've changed.
+
+$ git commit -m "modified the button style"

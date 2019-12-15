@@ -1,0 +1,8 @@
+I want to write the following steps by steps.
+
+1. menu partitions  == informations
+2. partitions unmount
+3. select unallocated
+4. menu partitions = New
+5. file system = fat32 = add
+6. 

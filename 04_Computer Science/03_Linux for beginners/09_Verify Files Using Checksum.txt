@@ -1,0 +1,9 @@
+I want to write the following steps by steps.
+
+1. raspberrypi.org/downloads/
+2. ls
+3. cd Downloads
+4. Downloads ls
+5. shalsum NOOBS_lite_V1_4.zip
+6. shalsum NOOBS_lite_v1_4.Zip  | grep bb79cf2b3f7e30a08ac601991a41bd885a499b1ef0baf9edc27413738ac6c3b3
+7. entre 

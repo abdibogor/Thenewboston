@@ -1,0 +1,11 @@
+1.https://desktop.github.com => Download in this software and install
+open the software => Options => categories Account => sign in
+clone the folder form github(website)
+$ touch .gitignore
+write inside .gitignore  .idea
+
+explaining gitignore
+If you don't want Git to track some specific files, you can "ignore" them.
+That is done using the.gitignore file. Anything listed in the .gitignore file is ignored by Git and won't be visible in the respository.
+Let's create the.gitignore as well as a sample file containing some sensitive data which we don't want to be publicly visible in the repository.
+$ touch .gitignore

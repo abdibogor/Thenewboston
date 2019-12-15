@@ -1,0 +1,16 @@
+I want to write the following steps by steps.
+
+1. sftp root@104.236.7.12
+2. cd ../..
+3. ls -la
+4. cd var/www/html
+5. ls -la
+6. pwd
+7. put desktop/folder(name). choose
+8. mkdir Books
+9. put -r Desktop/folder
+10. ls -la
+11. get index.html
+12. cd ..
+13. ls
+14. get -r html Desktop/html
