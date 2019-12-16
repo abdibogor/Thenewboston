@@ -1,0 +1,17 @@
+I want to write the following steps by steps.
+
+1. ifconfig wlan1 down
+2. macchanger
+3. iwconfig
+4. clear
+5. ifconfig wlan1 down
+6. macchanger -r wlan1
+7. ifconfig
+8. clear
+9. airmong-ng check kill
+10. airmon-ng start wlan1
+11. clear
+12. airodump-ng wlanmon
+13. clear
+14. airodump-ng --bssid(ajouter adresse) wlanlmon
+15. 

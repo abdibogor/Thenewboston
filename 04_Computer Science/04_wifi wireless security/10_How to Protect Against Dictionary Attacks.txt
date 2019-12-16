@@ -1,0 +1,34 @@
+I want to write the following steps by steps.
+
+Recently a security flaw in LinkedIn’s code has helped add 6.5 million passwords to attackers’ traditional dictionary attack. 
+What is a dictionary attack? It’s an attack where hackers (we assume the bad kind here) run scripts against a combination of common usernames and passwords. 
+Thanks to LinkedIn, 6.5 million common passwords have been added to the arsenal of checks they use for their dictionary attacks. 
+So what can you do to help protect against these attacks?   Developers who require authentication for your sites, these tips are for you too!
+
+Here are a few steps you can take to help protect against those attacks:
+
+Strengthen your password requirements
+Probably the most simple to implement and most effective as well. 
+Increase password complexity requirements, such as requiring specific symbols, numbers, and/or uppercase letters. Any of these restrictions will encourage someone to make an uncommon password and not use a password that is found in the dictionary. Requiring a minimum length (8 characters is likely sufficient in combination with several other options below) helps as well.
+
+Expire your current users’ passwords and require them to create a new one
+Set up password expiration for your users’ accounts. Require them to update or change the passwords every few months. A common corporate time frame is 3 months, but it’s really up to your discretion. Be careful to balance this with the security level of your system; if users must remember new passwords regularly for too many accounts, they will get frustrated, forget the password they set, and end up contacting you for support (costing you or your helpdesk time). This requirement may be more appropriate for users with administrative access where higher security is warranted, or for servers where higher-value data is stored (or, for passwords used throughout an organization synchronized across more than one server, where the cost to the user of changing and remembering new passwords is offset by being able to use that account to access multiple systems).
+
+
+Disable Root User Login 
+Disable root login for remote connections. Root is a common user name and is common for brute force attacks. I won’t go into detail here, but you can read more about When you should disable root login.. or not and Simple security tricks to harden a new Linux server.
+
+
+Use SSH keys and disable password authentication
+Using SSH keys to connect to a remote server is a very good security practice. 
+The Linux Academy has just added an entire course dedicated to SSH if you want to find out more.
+
+Change the SSH Port on your Linux server
+The default port for SSH login is port 22. 
+That’s the port the attackers will most likely try to attack on. Change the port to something other than 22 to mix it up and possibly prevent the attacker from seeing your SSH service. 
+If the attacker does an exhaustive port scan (which can be time-consuming) this is almost certainly useless, but it could deter casual attackers scanning lots of servers for common ports and easy targets.
+
+Failed Login Attempts Lockout
+A simple way to deter dictionary attacks is to disable the login after a certain number of failed login attempts. Use pam for this on Linux; developers can custom code it into their app. Disabling an account for a period of time keeps attackers from guessing too quickly, but automatically re-enabling after a delay helps to prevent manual intervention to allow valid users access. Even adding a few seconds mandatory wait time between password attempts (a real person won’t even retype their password this fast) helps prevent automated tools from trying hundreds or thousands of options quickly.
+
+Use Allow Hosts

@@ -1,0 +1,5 @@
+I want to write the following steps by steps.
+
+1. airdodump-ng --channel 11 --bssid (ajouter votre adresse ip) -- wlan1mon
+2. aireplay-ng --deauth 2000 -a (add your adresse ip) -c (add your adresse ip) wlan1mon
+3. 

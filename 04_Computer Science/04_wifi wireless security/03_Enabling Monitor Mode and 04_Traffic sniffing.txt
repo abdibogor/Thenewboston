@@ -1,0 +1,23 @@
+I want to write the following steps by steps.
+
+1. iwconfig
+2. ifconfig wlan1 up
+3. airmon-ng
+4. clear
+5. airmon-ng check
+6. airmon-ng check kill
+7. clear
+8. airmon-ng start wlan1
+9. clear
+10. iwconfig
+11. wireshark
+
+	4. Traffic sniffing
+
+12. clear
+13. airmon-ng stop wlanlmon
+14. clear
+15. iwconfig
+16. service network-manager start
+17. iwconfig
+18. 

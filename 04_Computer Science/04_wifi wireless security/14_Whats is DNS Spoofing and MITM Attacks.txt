@@ -1,0 +1,55 @@
+I want to write the following steps by steps.
+
+In the first installment of this series we reviewed normal ARP communication and how the ARP cache of a device can be poisoned in order to redirect machines network traffic through a another machine with possible malicious intent. This seemingly advanced man-in-the-middle (MITM) attack known as ARP Cache Poisoning is done easily with the right software. In this article we will discuss a similar type of MITM attack called DNS Spoofing. If you have not read the previous article on ARP Cache Poisoning then I would recommend doing so now, as this article builds upon techniques learned in that article.
+DNS Spoofing
+
+DNS spoofing is a MITM technique used to supply false DNS information to a host so that when they attempt to browse, for example, www.bankofamerica.com at the IP address XXX.XX.XX.XX they are actually sent to a fake www.bankofamerica.com residing at IP address YYY.YY.YY.YY which an attacker has created in order to steal online banking credentials and account information from unsuspecting users. This is actually done quite easily and here we will see how it works, how it is done, and how to defend against it.
+
+Normal DNS 
+Communication
+The Domain Naming System (DNS) protocol as defined in RFC 1034/1035 is what some consider one of the most important protocols in use by the Internet. This is because DNS is the proverbial molasses that holds the bread together. In a nutshell, whenever you type in a web address such as http://www.google.com into your browser, a DNS request is made to a DNS server in order to find out what IP address that name resolves to. This is because routers and the devices that interconnect the Internet do not understand google.com, they only understand addresses such as 74.125.95.103.
+
+Understanding Man-In-The-Middle Attacks - Part2: DNS Spoofing
+Chris Sanders POSTED ON APRIL 7, 2010 0 3 Views 0
+
+SHARE ON FACEBOOK
+ 
+TWEET IT
+ 
+ 
+ 
+ 
+
+If you would like to read the other parts in this article series please go to
+
+Understanding Man-in-the-Middle Attacks - ARP Cache Poisoning (Part 1)
+Understanding Man-In-The-Middle Attacks - Part 3: Session Hijacking
+Understanding Man-In-The-Middle Attacks - Part 4: SSL Hijacking
+Introduction
+In the first installment of this series we reviewed normal ARP communication and how the ARP cache of a device can be poisoned in order to redirect machines network traffic through a another machine with possible malicious intent. This seemingly advanced man-in-the-middle (MITM) attack known as ARP Cache Poisoning is done easily with the right software. In this article we will discuss a similar type of MITM attack called DNS Spoofing. If you have not read the previous article on ARP Cache Poisoning then I would recommend doing so now, as this article builds upon techniques learned in that article.
+
+
+DNS Spoofing
+DNS spoofing is a MITM technique used to supply false DNS information to a host so that when they attempt to browse, for example, www.bankofamerica.com at the IP address XXX.XX.XX.XX they are actually sent to a fake www.bankofamerica.com residing at IP address YYY.YY.YY.YY which an attacker has created in order to steal online banking credentials and account information from unsuspecting users. This is actually done quite easily and here we will see how it works, how it is done, and how to defend against it.
+
+Normal DNS Communication
+The Domain Naming System (DNS) protocol as defined in RFC 1034/1035 is what some consider one of the most important protocols in use by the Internet. This is because DNS is the proverbial molasses that holds the bread together. In a nutshell, whenever you type in a web address such as http://www.google.com into your browser, a DNS request is made to a DNS server in order to find out what IP address that name resolves to. This is because routers and the devices that interconnect the Internet do not understand google.com, they only understand addresses such as 74.125.95.103.
+
+Like what you're reading? Get the latest updates and tech guides in your inbox.
+
+I understand that by submitting this form my personal information is subject to the TechGenix Privacy Policy.
+
+A DNS server itself works by storing a database of entries (called resource records) of IP address to DNS name mappings, communicating those resource records to clients, and communicating those resource records to other DNS servers. The architecture of DNS servers throughout enterprises and the Internet is something that can be a bit complicated. As a matter of fact, there are whole books dedicated to DNS architecture. We will not cover architectural aspects or even all of the different types of DNS traffic (you can review the various DNS related RFC's here), but we will look at a basic DNS transaction, seen in Figure 1.
+
+DNS functions in a query/response type format. A client wishing to resolve a DNS name to an IP address sends a query to a DNS server, and the server sends the requested information in its response.
+
+Spoofing DNS
+
+
+There is more than one way to skin a cat and there is definitely more than one method available for performing DNS spoofing. We will be using a technique called DNS ID spoofing.
+
+Every DNS query that is sent out over the network contains a uniquely generated identification number that's purpose is to identify queries and responses and tie them together. This means that if our attacking computer can intercept a DNS query sent out from a target device, all we have to do is create a fake packet that contains that identification number in order for that packet to be accepted by that target.
+
+We will complete this process doing two steps with a single tool. First, we will ARP cache poison the target device to reroute its traffic through our attacking host so that we can intercept the DNS request, and then we will actually send the spoofed packet. The goal of this scenario is to get users on the target network to visit our malicious website rather than the website they are attempting to access. A depiction of this attack is seen in Figure 4.
+
+

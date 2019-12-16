@@ -1,0 +1,16 @@
+I want to write the following steps by steps.
+
+1.ifconfig
+2.clear
+3.ifconfig -a
+4.clear
+5.ifconfig wlan1
+6.clear
+7.ifconfig
+8.ifconfig eth0 down
+9.ifconfig
+10.clear
+11.ifconfig eth0 
+12.clear
+13.iwconfig
+14.

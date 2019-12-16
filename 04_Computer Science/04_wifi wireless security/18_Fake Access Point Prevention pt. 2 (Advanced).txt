@@ -1,0 +1,14 @@
+I want to write the following steps by steps. 
+
+1. iwconfig
+2. airbase-ng -e 'HOTDOGS' -c 6 wlanOmon 
+3. dnsmasq -C /etc/dnsmasq.conf -H Desktop/fakehosts.conf -d
+4. ifconfig at0 10.0.0.1/24 up
+5. ifconfig 
+6. clear
+7. route add -net 10.0.0.0 netmask 255.255.255.0
+8. clear
+9. echo 1 > /proc/sys/net/ipv4/ip_forward
+10. iptables -P FORWARD ACCEPT
+11. iptables - nat -A POSTROUTING -o etho -j MASQUERADE 
+12. apache2ctl start  

