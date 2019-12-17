@@ -16,17 +16,13 @@
   <summary>View Details</summary>  
   
 01. XHTML and CSS = *[http://tiny.cc/bgiwez](http://tiny.cc/bgiwez)*
-   
-  
+    
 </details>
 
 ### Back-End Web Developer
 
 <details>
   <summary>View Details</summary> 
-   
-   
-  
 </details>
 
 ### Mobile Developer 
@@ -39,12 +35,10 @@
 
 <details>
   <summary>View Details</summary> 
-
 </details>
 
 ### computer science
 
 <details>
   <summary>View Details</summary> 
-
 </details>

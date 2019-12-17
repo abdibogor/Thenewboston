@@ -1,0 +1,7 @@
+click the button in the cells
+format de cellule
+Alignement
+Contrôle du texte
+Checker : Renvoyer à la ligne automatiquement
+checker : Ajuster
+
