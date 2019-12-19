@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+<title>Abdibogoreh</title>
+<meta charset="UTF-8">
+<meta name="description" content="Web developpement">
+<meta name="keywords" content="Html,css">
+<meta name="author" content="abdibogoreh">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" type="image/x-icon" href="abdi.jpg">
+<style type="text/css">
+div#nsidebox1 {
+	position:absolute;
+	padding:10px;
+	border:1px solid gray;
+	height: auto;
+	width: 430px;
+	top:270px;
+	left:170px;
+	z-index:2;
+}
+</style>
+</head>
+<body>
+
+<img src="logo.jpg"/>
+<div id="mainbox">
+
+<div id="navbar">
+<ul>
+  <li><a href="index.php">Home</a></li>
+</ul>
+</div>
+
+<img id="mainpic" src="register.jpg"/>
+
+
+<!--log in box-->
+<div id="insiddebox1">
+<form name="form1" method="post" action="registrement.php">
+ <p>Username:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="userame" size="15" maxlength="20" value=""/></p>
+ <p>Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" name="pass" size="15" maxlength="20" value=""/></p>
+ <p>Confirm Pass:&nbsp;<input type="password" name="pass2" size="15" maxlength="20" value=""/></p>
+ <p>Email: <input type="text" name="email" size="15" maxlength="65" value=""/></p> 
+ <p>Confirm Email: <input type="text" name="email2" size="15" maxlength="65" value=""/></p>
+ <p><input type="submit" name="submit" value="register"></p>
+</form>
+</div>
+
+</div>
+
+</body>
+</html> 
+
