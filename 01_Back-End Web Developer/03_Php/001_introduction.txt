@@ -1,0 +1,7 @@
+Hypertext Preprocessor(PHP) is a free, highly popular, open source scripting languag.
+PHP scripts are executed on the server.
+
+PHP has enough power to work at the core of Wordpress,the busiest blogging system on the web.
+It also has the degree of depth required to run facebook, the web's largest social network.
+
+php.net

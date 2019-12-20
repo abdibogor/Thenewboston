@@ -1,0 +1,5 @@
+install Xampp or Wampserver
+
+localhost:8080/
+
+new system to enter
