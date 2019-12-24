@@ -1,0 +1,6 @@
+http://localhost:8080/phpmyadmin/
+http://localhost:8080/dashboard/
+
+compte d'utilisateur (priviléges)
+click database(base de données)
+créer une base de données

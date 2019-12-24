@@ -1,0 +1,34 @@
+<producers>
+			<producer>
+					<name>Alex</name>
+					<age>21</age>
+					 <show>
+					        <showname>A show</showname>
+							<showndate>12th december 2010</showndate>
+					 </show>
+					  <show>
+					        <showname>Another show</showname>
+							<showndate>4th July 2009</showndate>
+					 </show>
+					 <show>
+					        <showname>Another show 2</showname>
+							<showndate>5th July 2009</showndate>
+					 </show>
+			</producer>
+			<producer>
+					<name>Billy</name>
+					<age>16</age>
+					 <show>
+					        <showname>Better show</showname>
+							<showndate>25th december 2007</showndate>
+					 </show>
+			</producer>
+			<producer>
+					<name>Dale</name>
+					<age>19</age>
+			</producer>
+			<producer>
+					<name>Josh</name>
+					<age>18</age>
+			</producer>
+</producers>
