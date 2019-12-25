@@ -1,0 +1,3 @@
+new table
+id   int         No None auto_increment  Primary
+Name varchar(40) No None 

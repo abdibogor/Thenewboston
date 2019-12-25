@@ -1,0 +1,7 @@
+new database table
+create table
+id 
+username       varchar(30) id primary
+password       varchar(30)
+firstname      varchar(40)
+surname        varchar(40)
