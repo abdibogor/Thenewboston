@@ -1,0 +1,2 @@
+SELECT `id` FROM `users` WHERE `username`=`alex` AND `password`=`pass123`
+
