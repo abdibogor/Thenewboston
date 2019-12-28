@@ -1,0 +1,1 @@
+<img src="generate.php?source=clavier.jpg" />
