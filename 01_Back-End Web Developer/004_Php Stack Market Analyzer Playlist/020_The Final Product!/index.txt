@@ -1,0 +1,12 @@
+localhost:8080 or localhost
+phpadmin
+you can create 9 table in phpadmin
+1.ticker
+2.daysInc
+3.pctOfDaysInc
+4.avgIncPct
+5.daysDec
+6.pctofDaysDec
+7.avgDecPct
+8.buckysBuyValue
+9.buckysSellValue

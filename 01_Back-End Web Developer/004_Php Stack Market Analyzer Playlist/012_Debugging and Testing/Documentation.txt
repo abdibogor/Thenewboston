@@ -1,0 +1,4 @@
+database: danielle_youtube
+
+user: danielle_sally
+password: pass123
