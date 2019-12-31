@@ -1,0 +1,10 @@
+SELECT i.seller_id,i.name, C.id
+FROM customers AS c, items AS i
+WHERE i.seller id=c.id
+
+SELECT customers.name, items.name FROM customers, items WHERE customers.id=seller_id
+
+SELECT customers.name, items.name FROM customers LEFT OUTER JOIN items ON customers.id=seller_id
+
+SELECT customers.name, items.name FROM customers RIGHT OUTER JOIN items ON customers.id=seller_id
+

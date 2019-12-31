@@ -1,0 +1,8 @@
+SELECT customers.address FROM customers
+
+SELECT name,address FROM customers ORDER BY id
+
+SELECT*FROM`customers`WHERE 1
+
+SELECT state, city, name FROM customers ORDER BY state, name
+

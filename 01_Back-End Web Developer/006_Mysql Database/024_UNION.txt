@@ -1,0 +1,5 @@
+SELECT name, cost, bids FROM items WHERE bids>190
+UNION ALL
+SELECT name, cost, bids FROM items WHERE bids>1000
+
+

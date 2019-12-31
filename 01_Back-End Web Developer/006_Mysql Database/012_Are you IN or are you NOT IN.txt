@@ -1,0 +1,9 @@
+SELECT name, state FROM customers WHERE state='CA'OR state='NC'OR state='NY'
+
+SELECT name, state FROM customers WHERE state='CA'OR state IN ('CA','NC','NY')
+ORDER BY state
+
+NOT IN()
+
+
+ 

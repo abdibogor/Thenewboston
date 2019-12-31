@@ -1,0 +1,5 @@
+ALTER TABLE items ADD FULLTEXT(name) 
+
+SELECT name,cost FROM items WHERE Match(name)Against('+baby -coat' IN BOOLEAN MODE)
+
+ 

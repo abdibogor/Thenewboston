@@ -1,0 +1,6 @@
+SELECT name, state, city FROM customers WHERE state='CA' AND city='Hollywood'
+
+SELECT name, state, city FROM customers WHERE city='Boston'Or state='CA'
+
+SELECT id, name, city FROM customers WHERE (id=1 OR id=2) AND city='Raleigh'
+

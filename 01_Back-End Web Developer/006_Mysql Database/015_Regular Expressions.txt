@@ -1,0 +1,9 @@
+SELECT name FROM items WHERE name REGEXP 'new'
+
+SELECT name FROM items WHERE name REGEXP '.box'
+
+SELECT name FROM items WHERE name REGEXP 'gold|car'
+
+SELECT name FROM items WHERE name REGEXP '[^12345] boxes of frogs'
+
+SELECT name FROM items WHERE name REGEXP '[1-5] boxes of frogs'

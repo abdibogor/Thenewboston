@@ -1,0 +1,8 @@
+you can click danielle_youtube
+
+CREATE TABLE users(
+id int,
+username varchar(30),
+password varchar(20),
+PRIMARY KEY(id)
+) 

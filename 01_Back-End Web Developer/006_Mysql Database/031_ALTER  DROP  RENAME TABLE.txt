@@ -1,0 +1,8 @@
+ALTER TABLE bacon ADD samplecolumn varchar(10)
+
+ALTER TABLE bacon DROP COLUMN samplecolumn
+
+DROP  TABLE bacon 
+
+rename TABLE customers TO users
+

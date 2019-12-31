@@ -1,0 +1,9 @@
+SELECT COUNT(name)FROM items WHERE seller id=6
+
+SELECT AVG(cost)FROM items WHERE seller_id=6
+
+SELECT COUNT(*) AS Item_count,
+MAX(cost)AS max, 
+AVG(cost) AS avg
+FROM items WHERE seller_id=12
+

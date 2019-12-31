@@ -1,0 +1,8 @@
+INSERT INTO items VALUES("101","bacon strips",","9","1","0")
+
+INSERT INTO items(id,name,cost,seller_id,bids)VALUES('102','fish n chips','7.99','1','0') 
+
+INSERT INTO items(id,cost,name)VALUES('103','7.77','beef on a stick') 
+
+
+ 

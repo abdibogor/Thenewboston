@@ -1,0 +1,8 @@
+SELECT*FROM `customers`WHERE 1
+
+SELECT CONCAT(city,',',state) AS new_address FROM customers
+ 
+SELECT name, cost FROM Items
+
+SELECT name, cost, cost*1 sale_price FROM items
+

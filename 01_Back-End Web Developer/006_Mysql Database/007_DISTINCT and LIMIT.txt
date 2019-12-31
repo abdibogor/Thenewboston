@@ -1,0 +1,7 @@
+SELECT Distinct state FROM customers
+
+SELECT id, name FROM customers
+
+SELECT id, name FROM customers LIMIT 5, 10
+
+ 

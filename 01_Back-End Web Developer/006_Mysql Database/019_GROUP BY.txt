@@ -1,0 +1,12 @@
+SELECT seller_id, COUNT(*)AS item_count FROM items WHERE seller_id=1
+
+SELECT seller_id, COUNT(*)AS item_count FROM items GROUP BY seller_id HAVING COUNT(*)>=3 ORDER BY item_count DESC 
+
+
+
+
+
+
+
+
+

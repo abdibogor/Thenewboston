@@ -1,0 +1,4 @@
+SELECT id, name FROM customers WHERE id=54
+
+SELECT name, state FROM customers WHERE state='CA'
+

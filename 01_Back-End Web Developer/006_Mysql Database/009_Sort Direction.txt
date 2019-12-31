@@ -1,0 +1,10 @@
+SELECT name, zip FROM customers ORDER BY zip DESC
+
+SELECT name, zip FROM customers ORDER BY name ASC
+
+SELECT name, id FROM customers ORDER BY id DESC
+
+SELECT*FROM`customers`WHERE 1
+
+SELECT name FROM customers ORDER BY LIMIT 1
+

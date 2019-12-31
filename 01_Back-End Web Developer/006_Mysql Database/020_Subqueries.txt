@@ -1,0 +1,10 @@
+SELECT AVG(cost) FROM items
+
+second example
+
+SELECT name, cost FROM items WHERE cost>(
+
+SELECT AVG(cost) FROM items
+
+) ORDER BY cost DESC
+

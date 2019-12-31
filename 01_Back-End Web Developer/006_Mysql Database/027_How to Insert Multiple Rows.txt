@@ -1,0 +1,10 @@
+INSERT INTO items(id,name,cost,seller_id,bids) Values 
+('104','beef chops','7.99','1','0'),
+('105','jelly pockets','4.50','1','0'),
+('106','sack of ham','9.95','1','0')
+
+
+INSERT INTO items(id,name,cost,seller_id,bids)SELECT id,name,cost,seller_id,bids FROM faketable
+
+
+

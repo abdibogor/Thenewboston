@@ -1,0 +1,20 @@
+what is a database?
+-a collection of data
+-Made Up of "tables"
+-Tables store similar information
+
+More on tables
+-Tables are made of 'columns" and "rows"
+-Columns are like categories
+-Each entry goes on a separate row
+
+Primary Keys
+-all tables should have "primary keys"
+-Column that is 100 unique
+-no rows can have same primary key!
+
+So What is SQL?
+SQL is the language database use
+MySQL is a program that understand SQL
+Other software, but MYSQL is the best!
+

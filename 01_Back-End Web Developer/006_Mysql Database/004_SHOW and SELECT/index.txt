@@ -1,0 +1,15 @@
+id    	 int(11)    No Primary
+name  	 varchar(60)
+address  varchar(60)
+city	 varchar(60)
+state	 varchar(60)
+zip	 varchar(60)
+
+
+Column
+SQL
+SHOW COLUMNS FROM customers
+
+SQL
+SELECT city FROM customers
+

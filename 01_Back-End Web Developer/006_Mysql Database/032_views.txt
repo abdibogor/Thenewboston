@@ -1,0 +1,9 @@
+you can click danielle_youtube 
+
+CREATE VIEW mostbids AS 
+SELECT id,name,bids FROM items ORDER BY bids DESC LIMIT 10
+
+CREATE VIEW mailing AS 
+SELECT Concat(city,',',state)AS address FROM users 
+
+SELECT name, bids FROM mostbids

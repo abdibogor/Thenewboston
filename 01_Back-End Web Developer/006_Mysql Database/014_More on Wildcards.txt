@@ -1,0 +1,4 @@
+SELECT name FROM items WHERE name LIKE'_boxes of frogs'
+
+SELECT name FROM items WHERE name LIKE'%boxes of frogs'
+

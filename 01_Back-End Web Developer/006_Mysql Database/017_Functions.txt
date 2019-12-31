@@ -1,0 +1,10 @@
+//CONCAT()
+
+SELECT name, UPPER(name)FROM customers 
+
+SELECT cost, SQRT(cost) FROM items 
+
+SELECT AVG(cost)FROM items
+
+SELECT SUM(bids)FROM items
+

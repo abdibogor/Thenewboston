@@ -1,0 +1,10 @@
+addresstwo varchar(30) NOT NULL
+
+id int NOT NULL AUTO_INCREMENT 
+
+CREATE TABLE bacon(
+   id int NOT NULL AUTO_INCREMENT, 
+   username varchar(30) NOT NULl, 
+   password varchar(20) NOT NULL,
+   PRIMARY KEY ID
+)

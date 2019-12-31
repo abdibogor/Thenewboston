@@ -1,0 +1,7 @@
+SELECT name, MIN(cost)FROM items WHERE name LIKE '%boxes of frogs' AND seller_id IN(
+
+SELECT seller_id FROM items WHERE name LIKE '%boxes of frogs'
+
+)
+
+ 

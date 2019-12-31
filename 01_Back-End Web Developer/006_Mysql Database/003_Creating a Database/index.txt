@@ -1,0 +1,2 @@
+then phpadmin 
+create danielle_youtube(eg)

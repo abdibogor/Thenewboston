@@ -1,0 +1,3 @@
+SELECT name FROM items WhERE name LIKE 'new%'
+
+
