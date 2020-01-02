@@ -1,0 +1,15 @@
+var Bucky = {
+    printFirstname: function(){
+     console.log("My name is bucky");'
+	console.log(this === Bucky);
+  }
+};
+
+Bucky.printFirstName();
+
+//The default calling content is global
+function dosomethingWorthess{
+     console.log("\ni an worthless");
+     console.log(this === Bucky);
+}
+doSomethingWorthless();

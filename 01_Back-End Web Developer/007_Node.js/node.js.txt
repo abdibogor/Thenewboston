@@ -1,0 +1,9 @@
+Node.js est une plateforme logicielle libre et événementielle en JavaScript orientée vers les applications réseau qui doivent pouvoir monter en charge.
+
+Elle utilise la machine virtuelle V8 et implémente sous licence MIT les spécifications CommonJS.
+
+Parmi les modules natifs de Node.js, on retrouve http qui permet le développement de serveur HTTP. 
+Il est donc possible de se passer de serveurs web tels que Nginx ou Apache lors du déploiement de sites et d'applications web développés avec Node.js.
+
+
+Concrètement, Node.js est un environnement bas niveau permettant l’exécution de JavaScript côté serveur.

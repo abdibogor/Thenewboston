@@ -1,0 +1,37 @@
+1.nodejs.org
+firstly you can visit in this website
+secondly you can download in software
+thirstly install 
+
+you can click cmd
+1.node
+2.console.log<'bacon'>;
+
+then you can download intelliJ idea
+jetbrains.com/webstorm/buy/
+
+you can do doublick idea64
+
+Create new Project
+Static Web
+next
+finish
+
+right click in folder Node.js
+new folder
+new javascript file
+name app.js
+
+console.log('bacon');
+
+
+Save'app.js'Configuration
+edit configuration 
+browser default 
+chrome
+
+File
+Settings
+Plugins barre de recherche
+NodeJs
+ 
