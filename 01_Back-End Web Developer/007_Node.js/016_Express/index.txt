@@ -1,0 +1,17 @@
+new project
+Node.js and NPM
+Node.js Express App
+Next
+
+project name  Megan
+template engine: EJS
+css Engine : plain CSS 
+
+Finish
+
+
+idea
+bin
+double click www
+run (localhost:3000)
+
