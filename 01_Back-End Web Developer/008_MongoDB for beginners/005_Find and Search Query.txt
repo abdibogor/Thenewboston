@@ -1,0 +1,38 @@
+db.players.find(
+     {"position":"Goalie"}
+)
+
+db.players.findOne(
+      {"position":"Goalie"}
+)
+
+db.players.find(
+    {"position":"Defenseman", "age":21}
+).Pretty()
+
+
+db.players.find(
+    {
+	$or:[
+            ["position":"Left wing"],
+	    ["position":"Right wing"]
+]
+}
+)
+
+clear all
+
+db.players.find(
+	{"age": (&gt:30) }
+)
+
+db.players.find(
+       {"position":"Center"},
+        ("name":1,_id:0)
+), limit(1)
+
+
+db.player.find(
+   {"position":"Center"},
+   {"name":1,_id:0}
+).skip(2)

@@ -1,0 +1,15 @@
+db.users.aggregate({
+    &group : {
+        _id : "&eyeColor",
+	total: {&sum: 1}
+   }
+})
+
+run function 
+
+db.users.aggregate({
+    &group: {
+       _id : "gender",
+       rich : {&avg : "&balance"}
+    }
+})

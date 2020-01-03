@@ -1,0 +1,31 @@
+www.mongodb.org
+
+1. cmd 
+2. cd ..
+3. cd..
+4. cd Users
+5. cd..
+6. cd "\Program Files\MongoDB\Server\3.0\bin\"
+    cd "\Program Files\mongod\bin\"
+    cd "\ASUS PC\Downloads\Compressed\mongod\bin"
+7. dir
+8. mongod
+9. mkdir \data\db
+10. mongod 
+exit
+
+ordinateur click right
+proprietes
+Paramètres système avancés
+Variables d'environnement...
+New
+variable name: PATH
+variable value: C:\Program Files\mongod\bin
+
+cmd 
+mongod
+
+open another window
+cmd 
+mongo
+db

@@ -1,0 +1,15 @@
+Public
+apps
+
+Mongo Explorer
+configuration
+Path to Mongo executable
+C:\Program Files\mongod\bin\mongod.exe
+test
+right "autoconnect" click +
+Label: Localhost
+apply to Ok
+
+cmd
+mongod
+

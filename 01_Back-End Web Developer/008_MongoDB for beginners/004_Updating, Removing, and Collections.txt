@@ -1,0 +1,23 @@
+db.players.find().pretty()
+
+db.players.remove{
+   (".id" : ObjectId["55227aa24e2ba219c9e7c92ab])
+}
+
+db.players.find().pretty()
+
+clearall
+
+db.players.find().pretty()
+
+clearAll()
+
+db.players.update{
+   {"_id" : Object("552aa4ce2ba219c9e7c92ac")}
+   
+}
+
+db.players.find().pretty()
+
+db.players.find()
+

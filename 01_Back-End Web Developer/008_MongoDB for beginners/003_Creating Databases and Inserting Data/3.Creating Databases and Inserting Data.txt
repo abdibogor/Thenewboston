@@ -1,0 +1,71 @@
+Mongo Explorer
+Localhost
+Local
+
+
+Use bockey == run
+db == run(button left)
+
+db.application()
+
+use bockey == run(button left)
+
+db.players.insert(
+     {
+        {  
+         "position":"Right Wing",
+         "id":8465166,
+         "weight":200,
+         "height":"6' 0\"",
+         "imageUrl":"http://1.cdn.nhle.com/photos/mugs/8465166.jpg",
+         "birthplace":"Seria, BRN",
+         "age":37,
+         "name":"Craig Adams",
+         "birthdate":"April 26, 1977",
+         "number":27
+      },
+}
+)
+
+db.players.insert{
+      {  
+         "position":"Right Wing",
+       
+                   "id":8475761,
+    
+                    "weight":195,
+      
+                   "height":"6' 2\"",
+ 
+                   "imageUrl":"http://1.cdn.nhle.com/photos/mugs/8475761.jpg",
+         
+                    "birthplace":"Gardena, CA, USA",
+         
+                     "age":23,
+         
+                     "name":"Beau Bennett",
+         
+                      "birthdate":"November 27, 1991",
+         
+                       "number":19
+      
+ },
+}
+
+db.players.insert([
+          
+])
+
+
+show collections
+players
+db.players.find()
+
+db.players.find();
+
+db.players.find().pretty
+
+clear
+
+db.players.findOne()
+
