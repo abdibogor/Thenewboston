@@ -1,0 +1,6 @@
+weight = 120
+puts "You need to eat some cheeseburgers" if weight < 150 
+weight = 600
+puts "You need to eat some cheeseburgers" if weight < 150 
+
+

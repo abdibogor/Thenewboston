@@ -1,0 +1,5 @@
+example = {'bucky' => 'coolest guy ever', 'ema', => 'very nice gal', 'peter' => 'family guy dude' }
+print example.size
+print example['bucky']
+example['bucky'] = 'fattest guy eva!'
+print example['bucky']

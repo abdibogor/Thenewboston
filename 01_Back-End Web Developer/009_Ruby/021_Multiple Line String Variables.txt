@@ -1,0 +1,11 @@
+b = "bacon"
+puts "You are correct!" if b.reverse=="nocab"
+tuna = <<mark
+hello
+my name is
+bucky
+i
+love
+hame nd abcon
+mark
+puts tuna

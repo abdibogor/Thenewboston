@@ -1,0 +1,5 @@
+puts "Your name can not contain numbers" if "Bucky45" =~ /[0-9]/
+
+puts "Telephone number cant contain letters!"  if "486beansandpie34".match</a-z/>
+puts "Telephone number cant contain letters!" if "454-5634".m>
+

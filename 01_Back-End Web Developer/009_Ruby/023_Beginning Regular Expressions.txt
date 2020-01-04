@@ -1,0 +1,5 @@
+0. puts "fatbucky".sub<'fat', 'lucky'>
+1. puts "fatbuckyfat".sub<'fat', 'lucky'>
+2. puts "fatbuckyfat".gsub<'fat', 'lucky'>
+3. a = "yo, what the heck do you want?"
+4. puts a.sub</^../, 'Excuse me sir'>

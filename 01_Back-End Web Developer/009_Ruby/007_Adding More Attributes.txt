@@ -1,0 +1,22 @@
+class Animal
+attr_accessor :name, :age, :trait
+end
+class Dog < Animal 
+end
+class Cat < Animal 
+end
+class Fish < Animal 
+end
+
+class Fish < Animal 
+attr_acessor :type
+end
+
+fish = Fish.new
+fish.name = "Nemo"
+fish.age = 3
+fish.type = "goldfish"
+dog = Dog.new
+dog.name = "Floyd"
+dog.trait = "annoying"
+dog.type = "hound"

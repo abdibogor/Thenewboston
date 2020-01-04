@@ -1,0 +1,15 @@
+weight = 120
+puts "You need to eat some cheeseburgers" if weight < 150 
+weight = 600
+puts "You need to eat some cheeseburgers" if weight < 150 
+puts "You need to eat some cheeseburgers" if weight == 150 
+puts "You do not weight 200 lbs" if weight != 200
+
+weight = 200
+puts "You do not weight 200 lbs" if weight != 200
+weight = 170
+puts "You are healthy" if weight > 100 && weight < 300
+weight = 600
+puts "You are healthy" if weight > 100 && weight < 300
+
+

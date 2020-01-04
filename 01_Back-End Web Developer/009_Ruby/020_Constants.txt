@@ -1,0 +1,9 @@
+tuna = 18
+print tuna
+tuna = 34
+print tuna
+pi = 3.14159
+Bucky = 25
+print Bucky
+Bucky = 12
+print Bucky

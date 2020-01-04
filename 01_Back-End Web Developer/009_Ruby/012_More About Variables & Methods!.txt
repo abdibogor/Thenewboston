@@ -1,0 +1,11 @@
+def crap 
+puts "I am a crappy crap crap!"
+end
+crap
+beans = 20
+dog house = 14
+3x = 5
+bucky$%^& = 999
+B = 64
+b
+B

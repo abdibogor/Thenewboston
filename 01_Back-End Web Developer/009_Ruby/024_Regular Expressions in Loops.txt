@@ -1,0 +1,4 @@
+a = "wow bucky is the greatest"
+a.scan</.../> {¦b¦ puts b}
+a.scan</\S\S\S/> {¦b¦ puts b}
+a = "wow bucky is the greatest"

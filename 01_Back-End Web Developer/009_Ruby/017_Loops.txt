@@ -1,0 +1,5 @@
+a.8.times do puts "Bacon" end
+b.4.times <puts "puddinghammock">
+c.3.upto<7> {puts "count from 3 to 7"}
+d. 15.downto<12> {puts "this one counts down"}
+e. 0.step<15,5>  {puts "0-15 by 5's"}

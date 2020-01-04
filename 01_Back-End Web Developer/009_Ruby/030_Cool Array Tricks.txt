@@ -1,0 +1,16 @@
+boys = ["bucky"; "tony", "tommy"]
+girls = ["lisa", "jenny", "shanky"]
+people = boys + girls
+noboys = people - boys
+puts "yep that person is included" if girls.include?<"lisa">
+puts "yep that person is included" if girls.include?<"cathy">
+people
+people.first
+people.last
+people.first<4>
+bacon = [1,2,3,4,5]
+puts bacon.reverse
+bacon
+bacon.reverse
+
+

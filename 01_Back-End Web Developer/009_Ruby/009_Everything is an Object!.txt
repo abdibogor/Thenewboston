@@ -1,0 +1,13 @@
+. class Bucky
+. def talk 
+. puts "Hi, my name is Bucky!"
+. end
+. end
+. bo = Bucky.new
+. bo.talk 
+. 12 + 56
+. bo.class
+. 36.class
+. puts "i am text on the screen"
+. Kernel.puts "this is alos optional but unnecessary"
+. 

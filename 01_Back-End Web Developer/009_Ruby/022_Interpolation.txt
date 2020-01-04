@@ -1,0 +1,6 @@
+a = 4
+b = 6
+puts "a * b = a*b"
+puts " #{a} * #{b} = #{a*b} "
+person = "Bucky Roberts"
+puts "I love person #{person}"

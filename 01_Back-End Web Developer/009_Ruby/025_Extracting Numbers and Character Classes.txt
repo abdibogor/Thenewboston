@@ -1,0 +1,5 @@
+tuna = "I Have 45 warts and my  llama has 62"
+tuna. scan</\d+/> {¦z¦ puts z}
+"wow i freaking love beans!".scan</[asw]/> {¦y¦ puts y}
+"wow i freaking love beans!".scan</[a-g]/> {¦y¦ puts y}
+

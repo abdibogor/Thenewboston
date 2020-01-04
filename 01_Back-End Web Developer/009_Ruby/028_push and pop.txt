@@ -1,0 +1,10 @@
+cheese
+cheese << "first item"
+cheese.push<"second item">
+cheese[1]
+cheese.push<"tuna mctuna">
+cheese.pop
+cheese
+cheese.pop
+cheese
+  

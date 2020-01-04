@@ -1,0 +1,8 @@
+weight = 54
+puts "you need to see a doctor" if weight<100 || weight>500
+weight = 200
+
+puts "you need to see a doctor" if weight<100 || weight>500
+unless 
+age = 23
+puts "I will date you!"  unless age < 18  

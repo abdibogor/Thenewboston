@@ -1,0 +1,16 @@
+a.8.times do puts "Bacon" end
+b.4.times <puts "puddinghammock">
+c.3.upto<7> {puts "count from 3 to 7"}
+d. 15.downto<12> {puts "this one counts down"}
+e. 0.step<15,5>  {puts "0-15 by 5's"}
+f. 1.upto<10> {|*| puts x}
+j. 0.step<15,5>  {|bacon! puts bacon|}
+//on va commencer par cet çi
+e. 13/4
+. 13.0/4.0
+. a = 13
+. b = 4
+. print a/b
+. c = 13
+. d = 4
+. print c.to_f/d.to_f

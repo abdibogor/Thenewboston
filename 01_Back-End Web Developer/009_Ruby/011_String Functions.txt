@@ -1,0 +1,9 @@
+32.class
+"mmm bacon".class
+"mmm ham slammers".length
+"slam jelly pockets".upcase
+"hello" + " my fair lady "
+lady
+"evil".reverse
+"evil".reverse.upcase
+

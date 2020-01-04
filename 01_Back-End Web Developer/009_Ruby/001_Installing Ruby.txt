@@ -1,0 +1,11 @@
+ctrl + l(url adresse) = rubyinstaller.org
+Without DevKit
+Ruby+DevKit 2.6.1-1(*64)
+click Downloads
+when you finish to install
+
+write in search start in menu 
+interactive Ruby
+e.g 
+2 + 10 // output 12
+

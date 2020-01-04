@@ -1,0 +1,7 @@
+boston = [3,5,7,98,321]
+puts boston[0]
+puts boston[3]
+boston[2]
+boston[2] = 66
+puts boston
+boston

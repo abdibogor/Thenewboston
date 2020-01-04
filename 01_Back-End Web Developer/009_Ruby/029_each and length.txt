@@ -1,0 +1,4 @@
+.sally = [10,20,30,40,50]
+.sally.each {¦x¦ puts x}
+.sally.each {¦x¦ puts x}
+.puts sally.length 

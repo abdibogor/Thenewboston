@@ -1,0 +1,8 @@
+continue previous tutorial
+puts example
+example.each {¦a,b¦ puts a+b }
+print example['emma']
+puts example.keys
+puts example
+example.delete<"emma">
+puts example

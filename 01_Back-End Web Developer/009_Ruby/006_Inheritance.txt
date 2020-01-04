@@ -1,0 +1,10 @@
+class Animal
+attr_accessor :name, :age, :trait
+end
+class Dog < Animal 
+end
+class Cat < Animal 
+end
+class Fish < Animal 
+end
+

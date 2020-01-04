@@ -1,0 +1,9 @@
+interactive Ruby
+
+. 7.times do print "MMM bacon!" end
+. print "bucky"
+. print "hello people of youtube"
+. iu43ru34rn34
+. 
+. 
+. 
