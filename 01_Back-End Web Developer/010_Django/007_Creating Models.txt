@@ -1,0 +1,18 @@
+il faut cliquer Le dossier Website
+puis Music
+puis Models.py
+il faut écrire dedans de cet dossier
+from django.db import models
+
+
+# Red pk 1
+class Album(models.Model):
+     artist = models.charField(max length=250)
+     album_title = models.CharField(max_length=500)
+     genre = models.charField(max_length=100)
+     album_logo = models.CharField(max_length=1000)
+
+class Song(models.Model): 
+  album = models.ForeignKey(Album, on_delete=models.CASCADE)
+  file_type = Models.CharField(max_length=10)
+  song_title = models.CharField(max_length=250)

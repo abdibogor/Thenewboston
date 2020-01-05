@@ -1,0 +1,47 @@
+powershell
+en tant qu'administrateur
+
+python --version
+easy_intall --version
+easy_intall --version
+cd C:\Users\Bucky\Desktop
+clear
+//python ez_setup.py
+
+easy_install django==1.8
+django-admin --version
+
+1.https://www.python.org
+downloads
+select windows
+you can choice to download windows *86 *64 web-based installer
+
+cmd 
+python --version
+pip --version
+
+powershell en tant qu'administrateur
+pip install virtualenvwrapper-win
+mkvirtualenv myproject
+workon myproject
+pip install django
+python -m django --version
+cls 
+cd \
+mkdir abdibogoreh
+cd .\abdibogoreh\
+cls
+django-admin startproject mysite
+cd .\mysite\
+python manage.py runserver
+http://127.0.0.1:8000/
+
+mkdir f_name 
+
+
+
+https://docs.djangoproject.com/en/1.11/howto/windows/
+
+
+write adresse url
+https://bootstrap.pypa.io/ez_setup.py

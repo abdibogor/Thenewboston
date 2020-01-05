@@ -1,0 +1,8 @@
+django-admin startproject website
+django-admin startproject mysite
+cd .\mysite\
+ls
+python manage.py runserver
+http://127.0.0.1:8000/
+
+download Pycharm

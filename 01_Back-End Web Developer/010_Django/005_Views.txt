@@ -1,0 +1,20 @@
+localhost:8000/admin
+
+mysite
+music
+view
+write
+from django.conf.urls import urls import include, url
+from django.contrib import admin 
+urlpatterns = [
+     url(r'^$admin/', views.index, admin.site.urls),
+     url(r'^$music/', include('music.urls'),
+]
+
+
+
+create view.py
+from django.http import HttResponse
+
+def index(request):
+return HttpResponse("<h1>This is the music homepage app homepage</h1>")

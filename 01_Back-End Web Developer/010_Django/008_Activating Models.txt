@@ -1,0 +1,8 @@
+cliquer Website
+settings.py
+'music.apps.MusicConfig',
+
+cmd
+python manage.py makemigrations music
+python manage;pu sqlmigrate music 0001
+python manage.py migrate

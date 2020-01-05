@@ -1,0 +1,17 @@
+a = Album(artist="Taylor Swift", album_title="Red", genre="County", album_logo="")
+a.save()
+a.artist()
+a.album_title
+a.id
+a.pk
+b = Album()
+b.artist = "Myth"
+b.album_title = "high School"
+b.genre = "Punk"
+b.album_logo = ""
+b.save()
+a.artist
+b.artist
+b.album_title = "Middle School"
+b.album_title
+Album.objects.all()
