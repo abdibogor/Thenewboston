@@ -1,0 +1,4 @@
+Open Internet explorer
+
+write in URL == https://www.python.org
+Download and install
