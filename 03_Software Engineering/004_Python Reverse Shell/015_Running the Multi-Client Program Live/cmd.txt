@@ -1,0 +1,19 @@
+python3 server.py
+list
+list
+select 0
+echo hey
+Python_Reverse_Shell\Multiple_Clients> echo tuna
+Multiple_Clients> cd ..
+quit
+
+list
+list
+
+select 0
+cd ..
+dir
+cd c:
+dir
+cd Users
+dir

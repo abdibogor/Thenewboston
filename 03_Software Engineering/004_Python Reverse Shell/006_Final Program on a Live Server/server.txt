@@ -1,0 +1,17 @@
+cd ../..
+ls -la
+cd var/www/html/
+clear
+ls -la
+nano server.py
+clear
+cat server.py
+clear
+ls
+clear
+ifconfig
+clear
+python3 server.py
+dir
+echo hey
+echo sucker > bacon.txt
