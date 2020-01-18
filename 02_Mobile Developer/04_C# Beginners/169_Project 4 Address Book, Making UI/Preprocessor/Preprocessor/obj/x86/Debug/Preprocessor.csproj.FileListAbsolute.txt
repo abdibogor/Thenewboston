@@ -1,0 +1,7 @@
+C:\Users\ASUS PC\AppData\Local\Temporary Projects\Preprocessor\bin\Debug\Preprocessor.exe
+C:\Users\ASUS PC\AppData\Local\Temporary Projects\Preprocessor\bin\Debug\Preprocessor.pdb
+C:\Users\ASUS PC\AppData\Local\Temporary Projects\Preprocessor\obj\x86\Debug\Preprocessor.Form1.resources
+C:\Users\ASUS PC\AppData\Local\Temporary Projects\Preprocessor\obj\x86\Debug\Preprocessor.Properties.Resources.resources
+C:\Users\ASUS PC\AppData\Local\Temporary Projects\Preprocessor\obj\x86\Debug\Preprocessor.csproj.GenerateResource.Cache
+C:\Users\ASUS PC\AppData\Local\Temporary Projects\Preprocessor\obj\x86\Debug\Preprocessor.exe
+C:\Users\ASUS PC\AppData\Local\Temporary Projects\Preprocessor\obj\x86\Debug\Preprocessor.pdb

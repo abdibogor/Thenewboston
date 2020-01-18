@@ -1,0 +1,17 @@
+a <- 32
+b <- 'bucky'
+
+a <- 32
+b <- "bucky"
+class('a')
+class('b')
+
+a <- 423
+b <- 8
+c <- 32.5345
+d <- 'poop'
+fs.numeric(a)
+fs.numeric(b)
+fs.numeric(c)
+fs.numeric(d)
+

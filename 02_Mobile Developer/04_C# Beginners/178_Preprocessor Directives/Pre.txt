@@ -1,0 +1,5 @@
+            MessageBox.Show("Adam is defined");
+#elif Bob1
+            MessageBox.Show("Bob is defined");
+#else 
+             MessageBox("Nothing is defined");

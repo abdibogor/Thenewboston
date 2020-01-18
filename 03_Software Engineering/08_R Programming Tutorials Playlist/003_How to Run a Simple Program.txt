@@ -1,0 +1,18 @@
+File
+New File
+R Script
+
+12 * 8
+12 + 8
+12 * 64
+
+12 + 8
+12 * 64
+54 - 32
+87 / 32
+
+(543 + 647) * 7
+
+to delete in bottom console the written
+ctrl + l
+

@@ -1,0 +1,3 @@
+C:\Users\ASUS PC\AppData\Local\Temporary Projects\Project\obj\x86\Debug\Project.Form1.resources
+C:\Users\ASUS PC\AppData\Local\Temporary Projects\Project\obj\x86\Debug\Project.Properties.Resources.resources
+C:\Users\ASUS PC\AppData\Local\Temporary Projects\Project\obj\x86\Debug\Project.csproj.GenerateResource.Cache

@@ -1,0 +1,11 @@
+you can write C# 2010 express
+after that 
+Download and install 
+
+open visual C# 2010 Express
+New Project
+Visual C#
+Windows Forms Application
+
+New project
+Abdibogoreh

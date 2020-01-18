@@ -1,0 +1,7 @@
+C:\Users\ASUS PC\AppData\Local\Temporary Projects\IDisposable\bin\Debug\IDisposable.exe
+C:\Users\ASUS PC\AppData\Local\Temporary Projects\IDisposable\bin\Debug\IDisposable.pdb
+C:\Users\ASUS PC\AppData\Local\Temporary Projects\IDisposable\obj\x86\Debug\IDisposable.Form1.resources
+C:\Users\ASUS PC\AppData\Local\Temporary Projects\IDisposable\obj\x86\Debug\IDisposable.Properties.Resources.resources
+C:\Users\ASUS PC\AppData\Local\Temporary Projects\IDisposable\obj\x86\Debug\IDisposable.csproj.GenerateResource.Cache
+C:\Users\ASUS PC\AppData\Local\Temporary Projects\IDisposable\obj\x86\Debug\IDisposable.exe
+C:\Users\ASUS PC\AppData\Local\Temporary Projects\IDisposable\obj\x86\Debug\IDisposable.pdb

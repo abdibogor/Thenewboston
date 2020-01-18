@@ -1,0 +1,10 @@
+C:\Users\ASUS PC\AppData\Local\Temporary Projects\Methods\obj\x86\Debug\Methods.Form1.resources
+C:\Users\ASUS PC\AppData\Local\Temporary Projects\Methods\obj\x86\Debug\Methods.Properties.Resources.resources
+C:\Users\ASUS PC\AppData\Local\Temporary Projects\Methods\obj\x86\Debug\Methods.csproj.GenerateResource.Cache
+C:\Users\ASUS PC\documents\visual studio 2010\Projects\Methods\Methods\obj\x86\Debug\Methods.Form1.resources
+C:\Users\ASUS PC\documents\visual studio 2010\Projects\Methods\Methods\obj\x86\Debug\Methods.Properties.Resources.resources
+C:\Users\ASUS PC\documents\visual studio 2010\Projects\Methods\Methods\obj\x86\Debug\Methods.csproj.GenerateResource.Cache
+C:\Users\ASUS PC\documents\visual studio 2010\Projects\Methods\Methods\bin\Debug\Methods.exe
+C:\Users\ASUS PC\documents\visual studio 2010\Projects\Methods\Methods\bin\Debug\Methods.pdb
+C:\Users\ASUS PC\documents\visual studio 2010\Projects\Methods\Methods\obj\x86\Debug\Methods.exe
+C:\Users\ASUS PC\documents\visual studio 2010\Projects\Methods\Methods\obj\x86\Debug\Methods.pdb

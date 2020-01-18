@@ -1,0 +1,7 @@
+boats <- read.csv("brusers.csv", True, ",")
+head(boata)
+
+#plot(boataSage.boatSincome, ylab="Age", xlab="Icome")
+#plot(boataSage.boatSincome, ylab="Income", xlab="Age")
+boxplot(boatSage)
+

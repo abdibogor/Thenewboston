@@ -1,0 +1,15 @@
+R est un langage de programmation et un logiciel libre destiné aux statistiques et à la science des données soutenu par la R Foundation for Statistical Computing. 
+R fait partie de la liste des paquets GNU3 et est écrit en C (langage), Fortran et R.
+
+
+GNU R est un logiciel libre distribué selon les termes de la licence GNU GPL et disponible sous GNU/Linux4, FreeBSD5, NetBSD6, OpenBSD7, Mac OS X8 et Windows9.
+
+
+Le langage R est largement utilisé par les statisticiens, les data miners, data scientists pour le développement de logiciels statistiques et l'analyse des données.
+
+https://cran.r-project.org
+Click Download R for Windows
+click install R for the first time
+the latest click Download R 3.5.3 for Windows
+
+double click R-3.5.2-win

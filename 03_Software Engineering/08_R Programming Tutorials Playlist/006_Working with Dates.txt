@@ -1,0 +1,9 @@
+name <- "Abdoulrazak Omar Bogoreh"
+nchar(name)
+nchar("name")
+
+tuna <- as.Data("2019-03-07")
+ham <- ("2019-03-07")
+class(tuna)
+class(ham)
+

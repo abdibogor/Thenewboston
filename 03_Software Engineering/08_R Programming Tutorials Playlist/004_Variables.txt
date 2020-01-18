@@ -1,0 +1,17 @@
+bacon
+I love to eat x.
+
+x = 32
+x + 8
+
+bucky <- tuna <- 20
+bucky
+tuna
+
+assign('ham',71)
+ham + 20
+
+assign('ham',71)
+ham 
+rm(ham)
+ham

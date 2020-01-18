@@ -1,0 +1,3 @@
+tuna <- read.csv("brusers.csv", TRUE, ",")
+class(tuna)
+head(tuna)

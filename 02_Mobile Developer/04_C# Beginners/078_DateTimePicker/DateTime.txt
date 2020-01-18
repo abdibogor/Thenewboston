@@ -1,0 +1,2 @@
+you can write first in google
+DateTimePicker CustomFormat Property

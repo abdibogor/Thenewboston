@@ -1,0 +1,6 @@
+install.packages("ggplot2")
+library(ggplot2)
+head(diamonds)
+
+qplot(diamondscaret, diamondsprice, diamonds, color=diamondsclarity)
+

@@ -1,0 +1,6 @@
+view
+other windows
+Toolbox
+
+click two times Button consecutives
+second button 2 changes the name click me

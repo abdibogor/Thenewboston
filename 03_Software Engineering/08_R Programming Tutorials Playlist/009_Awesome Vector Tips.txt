@@ -1,0 +1,22 @@
+slarmer <- 1:5
+slarmer
+
+slarmer <- 1:2000
+slarmer
+bacon <- -1:32
+bacon
+
+a <- 1:2
+b <- 7:9
+a
+b
+
+a <- 1:2
+b <- 7:9
+a
+b
+
+a <- 1:2
+b <- 7:9
+length(a)
+length(b)

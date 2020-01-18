@@ -1,0 +1,8 @@
+www.rstudio.com
+you can click RStudio
+< Desktop
+"Run Rstudio on your desktop" >
+Download RSTUDIO DESKTOP
+
+Installers
+RStudio 1.1.463 - Windows Vista/7/8/10
