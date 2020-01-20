@@ -1,0 +1,18 @@
+bottom: 
+Extract Ressource:
+  Resource name: bottom_text
+File name: strings.xml
+
+Android
+Java
+com.thenewboston.meme
+Create New Class
+Name: BottomPictureFragment
+Ok
+
+package com.thenewboston.memecreator;
+
+
+public class BottomPictureFragment extends Fragment {
+       
+}

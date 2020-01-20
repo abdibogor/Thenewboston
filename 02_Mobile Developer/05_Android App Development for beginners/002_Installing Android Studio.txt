@@ -1,0 +1,11 @@
+you can write Download android Studio
+that's url : https://developer.android.com/studio
+
+you can click with download Android STUDIO
+- then run as administrator
+- Download component or tools automatically
+- configurer Android SDK Manager
+- choose two 
+	 Android Support Library
+	 Google USB Driver
+	 

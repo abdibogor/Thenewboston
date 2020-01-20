@@ -1,0 +1,19 @@
+MainActivity.java
+import android.view.View;
+import android.widget.TextView;
+
+public void clickBuckysButton(View view) {
+       long futureTime = System.currentTimeMillis() + 10000;
+       while(System.currentTimeMillis() < futureTime) {
+	 synchronized (this) {
+ 	   try{
+		wait(futureTime=System.currentTimeMillis());	
+		}catch(Exception e){}
+	}
+  }
+    TextView buckysText = (TextView) findViewById(R.Id.buckysText);
+    buckysText.setText("Nice job Hoss");
+}
+
+activity_main.xml
+

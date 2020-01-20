@@ -1,0 +1,5 @@
+@Override
+  public void createMeme(String top, String bottom) {
+    BottomPictureFragment bottomFragment = (BottomPictureFragment) getSupportFragmentManager().findFragmentByid(R.id.fragment);
+    bottomFragment.setMemeText(top, bottom);
+}

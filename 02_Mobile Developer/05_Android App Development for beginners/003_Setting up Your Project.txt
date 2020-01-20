@@ -1,0 +1,5 @@
+open Android Studio
+
+- Start a new Android Studio project then
+- New Project
+- 

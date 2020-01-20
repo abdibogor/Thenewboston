@@ -1,0 +1,47 @@
+Create a New Projects
+New Project
+
+Configure your new project
+
+Blank Activity
+
+
+MainActivity.java
+import android.view.MotionEvent;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.RelativeLayout;
+import android.transition.TransitionManager;
+
+public class MainActivity extends ActionBerActivity {
+   
+          ViewGroup buckysLayout;
+
+	@Override
+	protected void onCreate (Bundle savedInstanceState) {
+             super.onCreate(savedInstanceState);
+	     setContentView(R.layout.activity_main);
+
+	buckysLayout = (ViewGroup) findViewById(R.id.buckysLayout);
+
+
+	public void moveButton() {
+                View buckysButton = findViewById(R.id.buckysButton);
+		
+	//Change the position of the button
+	RelativeLayout.LayoutParams positionRules = new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.WRAP_CONTENT, RelativeLayout.LayoutParams.WRAP_CONTENT); 
+         positionRules.addRules(RelativeLayout.ALIGN_PARENT_BOTTOM, RelativeLayout,TRUE);
+	 positionRules.addRules(RelativeLayout.ALIGN_PARENT_RIGHT, RelativeLayout,TRUE);
+ 	 buckysButton.setLayoutParams(positionRules);        
+    
+	//change the size of the buttom
+	ViewGroup.LayoutParams sizeRules = buckysButton.getLayoutParams();
+	sizeRules.width = 450;
+	sizeRules.height = 300;
+	buckysbutton.setLayoutParams(sizeRules);
+}
+
+public void moveButton() {
+	 View buckysButton = findViewById(R.id.bukysButton);
+
+	TransitionManager.beginDelayedTransition(buckysLayout);

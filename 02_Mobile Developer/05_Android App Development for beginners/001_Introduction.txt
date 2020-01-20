@@ -1,0 +1,15 @@
+java.sun.com
+the right menu 
+Java SE at a Glance
+you choice one java then download
+Accept license
+choice for format about labtop e.g: mac, os, windows
+
+install jdk-8u201-windows-*64.exe
+then go computer in property then 
+advanced system settings
+Variables d'environnement
+JAVA_HOME
+C:\Program Files\Java\jdk1.8.0_201
+ok 
+appliquer

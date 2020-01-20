@@ -1,0 +1,27 @@
+Create New Projects
+New Project
+Configure your new project
+
+Application name:
+finish
+
+
+activity main
+text
+
+MainActivity.java
+import android.context.Intent;
+import android.view.View;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+	    setContentView(R.layout.activity_main);
+     }
+
+	public void sendOutBroadCast(View view) {
+	   Intent i = new Intent();
+	   i.setAction("com.thenewboston.sendbroadcast");
+           i.addFlags(Intent.FLAG_INCLUDE_STOPPED_PACKAGES);
+	   sendBroadcast(i);
+}

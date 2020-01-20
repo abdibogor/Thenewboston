@@ -1,0 +1,20 @@
+ buckysButton.setOnClickListener(
+                new Button.OnClickListener(){
+                    public void onClick(View v) {
+                        TextView buckysText = (TextView)findViewById(R.Id.buckyText);
+                        buckysText.setText("Good job Hoss!");
+                        )
+                    }
+                };
+
+
+buckysButton.setOnLongClickListener{
+                      new Button.OnLongClickListener(){
+                            public boolean onLongClick(View v) {
+                                TextView buckysText = (TextView)findViewById(R.Id.buckyText);
+                                buckysText.setText("Holy carp, that was a long one!");
+                                 return true;
+                            }
+                      }
+            };
+    }

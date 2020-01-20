@@ -1,0 +1,21 @@
+Different States on an Android Activity
+
+
+    @Override
+    protected void onResume() {
+        super.onStart();
+        Log.i(TAG, "onResume");
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Log.i(TAG, "OnPause");
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStart();
+        Log.i(TAG, "onStop")
+    }
+}

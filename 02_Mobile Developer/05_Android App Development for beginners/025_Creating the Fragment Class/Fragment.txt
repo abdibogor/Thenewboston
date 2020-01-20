@@ -1,0 +1,27 @@
+on left menu
+Java
+to Create in file
+TopSectionFragment.Java
+
+package com.thenewboston.memeCreator;
+
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+public class TopSectionFragment extends Fragments {
+
+@override
+   public View onCreateView(LayoutInflater inflater, @Mullable ViewGroup container, @mullable Bundle savedInstanceState) {
+         View view = inflater.inflate(R.layout.top_section_fragment, container, false);
+          return view;
+    }
+}
+
+menu layout
+New Resource File
+File name: bottom_picture_fragment
+Root element: RelativeLayout
+Directory name: layout

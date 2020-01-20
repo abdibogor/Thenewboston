@@ -1,0 +1,43 @@
+Apples.java
+
+import android.content.Intent;
+import android.view.View;
+import android.widget.EditText;
+
+public class Apples extends ActionBarActivity {
+
+     public void onClick(View view){
+        Intent i = New Intent(this, Bacon.class);
+ 	startActivity(i);
+     }
+
+}
+
+
+public void onClick(View view){
+       Intent i = new Intent(this, Bacon.class);
+
+	final EditText applesInput = (EditText) findViewById(R.id.applesInput);	
+	String userMessage = applesInput.getText().toString();
+	i.putExtra("appleMessage", userMessage);	
+	
+	startActivity(i);
+}
+
+import android.view.Menu
+import android.view.MenuItem;
+import android.widget.TextView;
+
+@Override
+	protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+	setContentView(R.layout.activity_bacon);
+
+       Bundle applesData = getIntent().geExtras();
+	if(applesData==null){
+        return;
+   }
+    String_appleMessage = applesData.getString("appleMessage");
+    final TextView baconText = (TextView) findViewById(R.id.baconText);
+    baconText.setText(appleMessage);
+}

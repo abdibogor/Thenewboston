@@ -1,0 +1,15 @@
+le menu AVD Manager
++ Create Virtual Device
+you can choice Lollipop
+
+Start size and orientation	Scale  4dp on device = 1px on screen.
+
+Emulated Performance 	Coche Use Host GPU
+Finish
+
+Your Virtual Devices
+Slim Shady API 21 	Launch
+
+
+
+

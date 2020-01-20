@@ -1,0 +1,9 @@
+open Android Studio
+- SDK Manager
+- SDK Tools
+- intel *86 Emulator Accelerator
+Okay
+
+- File
+- Project Structure ctrl+alt+shift+s
+- 

@@ -1,0 +1,31 @@
+MainActivity.java
+import android.os.Handler;
+import android.os.Message;
+
+public class MainActivity extends ActionBarActivity {
+
+	Handler handler = new Handler(){
+		 @Override
+	public void handleMessage(Message msg) {
+ 	     super.handleMessage(msg);
+   }     
+};
+
+public void clickBuckysButton(View view) {
+      Runnable r = new Runnable()
+	@Override
+	public void run() {
+	 long futureTime = System.currentTimeMillis() + 10000;
+       while(System.currentTimeMillis() < futureTime) {
+	 synchronized (this) {
+ 	   try{
+		wait(futureTime=System.currentTimeMillis());	
+		}catch(Exception e){}
+	 }
+       }
+    }    
+};
+
+Thread buckysThread = new Thread(r);
+buckysThread.start();
+}

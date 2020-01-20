@@ -1,0 +1,13 @@
+Create New Projects
+New Project
+Blank Activity
+Finish
+
+
+app
+java
+com.thenewboston
+double click 
+New file = Activity = Blank Activity
+
+

@@ -1,0 +1,17 @@
+@override
+        public boolean onSingleTapConfirmed(MotionEvent e) {
+            buckysMessage.setText("onSingleTapConfirmed");
+            return false;
+      }
+
+
+       @override
+        public boolean onDoubleTap(MotionEvent e) {
+             buckysMessage.setText("onDoubleTap");
+             return false;
+    }
+
+@override
+        public boolean onLongPress(MotionEvent e) {
+             buckysMessage.setText("onLongPress");
+    }

@@ -1,0 +1,102 @@
+package com.example.alison;
+
+import androidx.appcompat.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+
+public class MainActivity extends AppCompatActivity implements TopSectionFragment.TopSectionListener {
+
+   @Override
+    protected void onCreate(Bundle savedInstanceState) {
+     super.onCreate(savedInstanceState);
+     setContentView(R.layout.activity_main);
+}
+
+	//This gets called by the Top Fragment when the user clicks the button
+	@Override
+ 		public void createMeme(String top, String bottom) {
+		
+           }
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        buckysMessage = (TextView)findViewById(R.id.buckysMessage);
+        this.gestureDetector = new GestureDetectorCompat(this,this);
+        gestureDetector.setOnDoubleTapListener(this);
+    }
+
+      @override
+        public boolean onSingleTapConfirmed(MotionEvent e) {
+            buckysMessage.setText("onSingleTapConfirmed");
+            return false;
+      }
+
+       @override
+        public boolean onDoubleTap(MotionEvent e) {
+             buckysMessage.setText("onDoubleTap");
+             return false;
+    }
+
+       @override
+        public boolean onLongPress(MotionEvent e) {
+             buckysMessage.setText("onLongPress");
+    }
+
+       //////////////////////  End Gestures ////////////////////////////////////////////////
+
+      @override
+               public boolean onTouchEvent(MotionEvent event) {
+                 this.gestureDetector.onTouchEvent(event);
+                 return super.onTouchEvent(event);
+      }
+
+        //Layout
+        RelativeLayout buckysLayout = new RelativeLayout(this);
+        buckysLayout.setBackgroundColor(Color.GREEN);
+
+        //Button
+        Button redButton = new Button(this);
+        redButton.setText("Log In");
+        redButton.setBackgroundColor(Color.RED);
+
+        //Username input
+        EditText username = new EditText(this);
+
+        redButton.setId(1);
+        username.setId(2);
+
+        RelativeLayout.LayoutParams buttonDetails = new RelativeLayout.LayoutParams(
+                RelativeLyaout.layoutParams.WRAP_CONTENT,
+                RelativeLayout.LayoutParams.WRAP_CONTENT
+        );
+
+        RelativeLayout.LayoutParams usernameDetails = new RelativeLayout.LayoutParams(
+                RelativeLayout.LayoutParams.WRAP_CONTENT,
+                RelativeLayout.LayoutParams.WRAP_CONTENT
+        );
+
+        //Give rules to position widgets
+        usernameDetails.addRule(RelativeLayout.ABOVE, redButton.getId());
+        usernameDetails.addRule(RelativeLayout.CENTER_HORIZONTAL);
+        usernameDetails.setMargins(0,0,0,50);
+
+        buttonDetails.addRule(RelativeLayout.CENTER_HORIZONTAL);
+        buttonDetails.addRule(RelativeLayout.CENTER_VERTICAL);
+
+        /* 16_Converting DIP to Pixels */
+        Resources r = getResouruces();
+        int px = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DEP, 200, r.getDisplayMetrics());
+
+        //Add widget to layout (button is now a child of layout)
+        buckysLayout.addView(redButton, buttonDetails);
+        buckysLayout.addView(username, usernameDetails);
+
+        //Set this activities content/display to this view
+        setContentView(buckysLayout);
+
+    }
+}

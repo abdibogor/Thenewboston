@@ -1,0 +1,37 @@
+New Project
+Configure your new project
+you choose Blank Activity
+Finish
+
+app
+src
+main 
+java
+com
+thenewboston
+New => Other => BroadCast Receiver
+
+Choose options for your new file
+Class Name: ReceiveBroadcast
+
+ReceiveBroadcast.java
+import android.widget.Toast;
+
+@Override
+ public void onReceive(Context context, Intent intent) {
+       Toast.makeText(context, "Broadcast has been received!", Toast.LENGTH_LONG).show();
+       
+
+	}
+}
+
+app 
+src
+main
+AndroidManifest.xml
+
+<receiver>
+    <intent-filter>
+          <action android:name="com.thenewboston.sendbroadcast"></action>
+    </intent-filter>
+</receiver>
