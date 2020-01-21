@@ -1,0 +1,23 @@
+MyDBHandler.java
+
+@Override
+public void onUpgrade(SQLITEDatabase db, int oldVersion, int newVersion) {
+      db.execSQL("DROP TABLE IF EXISTS" + TABLE_PRODUCTS);
+      onCreate(db);
+ }
+
+	//Add a new row to the database
+	public void addProduct(Product product) {
+	  contentValues = new ContentValues();
+	  values.put(COLUMN_PRODUCTIVE, product.get_productname()};
+	  SQLiteDatabase db = getWritableDatabase();
+	  db.insert(TABLE_PRODUCTS, null , values);
+	  db.close();
+}
+
+	//Delete a product from the database
+	  public void deleteProduct(String productName){
+          SQLiteDataBase db = getWritableDatabase();
+	  db.execSQL("DELETE FROM " + TABLE_PRODUCTS + " WHERE " + COLUMN_PRODUCTNAME " + "=\=" + productName + "\");
+}
+}

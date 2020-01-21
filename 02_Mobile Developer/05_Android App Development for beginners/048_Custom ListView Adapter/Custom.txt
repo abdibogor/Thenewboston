@@ -1,0 +1,32 @@
+ListExample
+app
+src
+main
+res
+drawable-hdpi
+
+com.thenewboston
+new file = Java Class
+
+CustomerAdapter.java
+
+class CustomAdapter extends ArrayAdapter<String>{
+        CustomAdapter(Context context, String[] foods) {
+ 	 super(content, R.layout.custom_row, foods);
+   } 
+
+      @Override
+	public View getView(int position, View convertView, ViewGroup parent) {
+               //retur super.getView(position, convertView, parent);
+		layoutInflater buckysInflater = LayoutInflater.from(getContext());
+	        View customView = buckysInflater.inflate(R.layout.custom_row, parent, false);
+		
+		String singleFoodItem = getItem(position);
+		TextView buckysText = (TextView) customview.findViewById(R.id.buckysText);
+		ImageView buckysImage = (ImageView) customView.findViewByid(R.id.buckysImage);
+		
+		buckyText.setText(singleFoodItem);
+	        buckysImage.setImageResource(R.drawable.chunky);
+		return customView;
+	}
+}

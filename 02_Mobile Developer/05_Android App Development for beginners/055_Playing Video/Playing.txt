@@ -1,0 +1,26 @@
+Open Android Studio
+
+Start a new Android Project
+
+Containers
+VideoView(il faut glisser)
+
+MainActivity.java
+
+import android.support.v7.app.ActionBarActivity;
+import android.os.Bundle;
+import android.widget.VideoView;
+import android.widget.MediaController;
+
+public class MainActivity extends ActionBarActivity {
+
+     @Override
+	protected void onCreate(Bundle savedInstanceState) {
+        Super.onCreate(savedInstanceState);
+	setContentView(R.layout.activity_main);
+
+	//Player controls(play, pause, stop, etc..)
+	MediaController mediaController = new MediaController(this);
+	mediaController.setAnchroView(buckysVideoView);
+	buckysVideoView.setMediaController(mediaController);
+	buckysVideoView.start();

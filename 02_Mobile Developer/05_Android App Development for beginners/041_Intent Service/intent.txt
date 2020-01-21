@@ -1,0 +1,36 @@
+Apples.java
+
+App
+Java
+com.thenewboston.com
+New 
+Java Class
+
+Create New Class
+Name: BuckyIntentService
+
+BuckysIntentService.java
+
+package com.thenewboston.intenttest;
+import android.content.Intent;
+import android.util.Log;
+
+public class BuckysIntentService extends IntentService {
+
+	private static final String TAG = "com.thenewboston.intentteat";
+
+	public BuckysIntentService(String name) {
+  		super(name);
+	}
+
+	@Override
+	protected void onHandleIntent(Intent intent) {
+          Log.i(TAG, "The service has now started");    
+    }
+}
+
+Apples.java
+
+@Override
+Intent intent = new Intent(this, BuckysIntentService.class);
+startService(intent);

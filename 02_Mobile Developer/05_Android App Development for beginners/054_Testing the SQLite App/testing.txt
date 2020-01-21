@@ -1,0 +1,26 @@
+MainActivity.java
+
+public class MainActivity extends ActionBarActivity {
+
+	EditText buckysInput;
+	TextView bucksText;
+	buckysInput = (EditText) findbViewById(R.Id.buckysInput);
+}
+
+//Add a product to the database
+	public void addButtonClicked(){
+           Products product = new Products(buckysInput.getText().toString());
+	   printDatabase();
+}	
+
+//Delete items
+public void deleteButtonCliked(View view){
+        String inputText = buckysInput.getText[].toString();
+	dbHandler.deleteProducts[inputText];
+	printDatabase();
+}
+
+public void printDatabase() {
+      String dbString = dbHandler.databaseToString();
+      buckysText.setText(dbString);
+      buckysInput.setText("");

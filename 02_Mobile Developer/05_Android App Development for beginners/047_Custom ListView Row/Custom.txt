@@ -1,0 +1,8 @@
+activity_main.xml
+
+layout
+New
+layout Resource file
+New Resource File
+File name: custom_row
+Root element: LinearLayout

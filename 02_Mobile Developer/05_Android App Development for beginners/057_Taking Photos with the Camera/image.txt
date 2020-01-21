@@ -1,0 +1,47 @@
+AndroidManifest.xml
+
+MainActivity.java
+
+public class MainAtivity extends ActionBarActivity {
+
+	static final int REQUEST_IMAGE_CAPTURE = 1;
+	ImageView buckysImageView;
+
+   @Override
+	protected void onCreate(Bundle savedInstanceState) {
+	super.onCreate(savedInstanceState);
+	setContentView(R.layout.activity_main);
+
+	Button buckyButton = (Button) findViewById(R.id.buckysButton);
+	buckysImageView = (ImageView) findViewById(R.id.buckysImageView);
+	
+	//57_Taking Photos with the Camera
+	//Disable the button if the super has no camero	
+	  if(!hasCamera()){
+ 		buckysButton.setEnabled(false);
+}
+  
+		//Check if the user has a camer	
+		private boolean hasCamera(){
+			return getPackageManager().hasSystemFeature(PackageManager.FEATURE_CAMERA_ANY);		        
+	   }
+
+		//Launching the camera	
+	public void launchCamera(View view){
+            Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+	  //take a picture and pass results along to onActivityResult
+	startActivityForResult(intent, REQUEST_IMAGE_CAPTURE);
+}
+
+       //If you want to return the image taken 
+	   @Override
+	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+           //super.onActivityResult(requestCode, resultCode, data);
+	    if(requestCode == REQUEST_IMAGE_CAPTURE "" resultCode == RESULT_OK){
+	 	//Get the photo
+	      Bundle extras = data.getExtras();
+	      Bitmap photo = (Bitmap) extras.get("data");
+	      buckysImageView.setImageBitmap(photo); 
+         }
+     }
+}
