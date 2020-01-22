@@ -1,0 +1,18 @@
+developer.android.com/guide/topics/ui/notifiers/notifications.html
+
+drap and drop Small Button
+
+MainActivity.java
+package com.thenewboston.notification;
+
+
+public class MainActivity extends ActionBarActivity {
+
+	NotificationCompat.Builder notifications;
+	private static final int uniqueID = 45612;
+
+	protected void onCreate(Bundle savedInstanceState) {
+	   super.onCreate(savedInstanceState);
+	   setContentView(R.layout.activity_main);
+
+	notification
