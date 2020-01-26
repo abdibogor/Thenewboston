@@ -1,0 +1,12 @@
+libgdx.badlogicgames.com/index.html
+
+Click Download
+
+Download Setup App
+
+Open Android Studio
+Configure
+Projects Defaults
+Project Structure
+
+

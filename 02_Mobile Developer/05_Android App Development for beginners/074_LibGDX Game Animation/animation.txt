@@ -1,0 +1,36 @@
+https://code.google.com/p/libgdx-texturepacker-gui/downloads/list
+
+public class MyGdXGame extends ApplicationAdapter {
+
+	private SpriteBatch batch;
+	private TextureAlas shooterAtlas;
+	private Animation animation;
+	private float timePassed = 0;
+
+	@Override
+	public void create () {
+	    batch = new SpriteBatch();
+	    
+	    shooterAtlas = new TextureAtlas(Gdx.files.internal("shooter.atlas");
+	    animation = new Animation(1/30f, shooterAtlas.getRegions());
+}
+
+	@Override
+	public void dispose() {
+             batch.dispose();
+	     shooterAtlas.dispose();
+}
+
+	@Override
+	public void render() {
+	  Gdx.gl.glClearColor(0,1,0,1);
+	  Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
+
+	   batch.begin();
+	   timePassed += Gdx.graphics.getDeltaTime();
+	   batch.draw(animation.getKeyframe(timePassed, true), 100, 500);
+	   batch.end();
+
+    }
+
+}

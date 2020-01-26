@@ -1,0 +1,47 @@
+Drap and drop Large Text
+
+right modify
+text
+
+username:
+password:
+
+MainActivity.java
+
+public class MainActivity extends ActionBarActivity {
+   
+	EditText username;
+	EditText passwordInput;
+	TextView buckysText;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+	  super.onCreate(savedInstanceState);
+	  setContentView(R.layout.activity_main);
+
+	usernameInput = (EditText) findViewById(R.id.usernameInput);
+	passwordInput = (EditText) findViewById(R.id.passwordInput);
+	buckysText = (TextView) findViewById(R.id.buckysText);
+}
+
+	//Save the users login info
+	public void saveInfo(View view){
+	   SharedPreferences sharedPref = getSharedPreferences("userInfo", Context.MODE_PRIVATE);
+	   
+	  SharedPreferences.Editor editor = sharedPref.edit();
+	  editor.putString("username", usernameInput.getText().toString());
+   	  editor.putString("password", passwordInput.getText().toString());
+	  editor.apply();
+	  Toast.makeText(this, "saved!", Toast.LENGTH_LONG).show(): 
+   }	
+
+	    //Print out the saved data
+	 public void displayData(View view){
+	  SharedPreferences sharedPref = getSharedPreferences("userInfo", Content.MODE_PRIVATE);
+	
+	  String name = sharedPref.getString("username", "");
+	  String pw = sharedPref.getString("password", "");
+	  buckysText.setText(name + " " + pw);
+     }
+
+}

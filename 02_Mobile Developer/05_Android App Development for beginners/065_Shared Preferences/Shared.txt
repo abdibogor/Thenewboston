@@ -1,0 +1,24 @@
+Drap and drop Large Text
+
+right modify
+text
+
+username:
+password:
+
+MainActivity.java
+
+public class MainActivity extends ActionBarActivity {
+   
+	EditText username;
+	EditText passwordInput;
+	TextView buckysText;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+	  super.onCreate(savedInstanceState);
+	  setContentView(R.layout.activity_main);
+
+	usernameInput = (EditText) findViewById(R.id.usernameInput);
+	passwordInput = (EditText) findViewById(R.id.passwordInput);
+	buckysText = (TextView) findViewById(R.id.buckysText);

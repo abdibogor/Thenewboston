@@ -1,0 +1,31 @@
+MyGdxGame.java
+
+public class MyGdxGame extends ApplicationAdapter implements GestureListener {
+
+	private SpriteBatch batch;
+	private OrthographicCamera camera;
+	private Texture texture;
+	private Sprite sprite;
+	
+
+	@Override
+	public void create () {
+	   batch = new SpriteBatch();
+	   texture.dispose();
+	}
+
+	  camera = new OrthographicCamera(Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
+	  texture = new Texture(Gdx.files.internal("WorldMap.png"));
+	  sprite = new Sprite(texture);
+	  
+	  sprite.setPosition(=sprite.getWidth()/2, =sprite.getHeight()/2);	  
+	  Gdx.input.setInputProcessor(new GestureDetector(this));
+	
+	}
+
+	@Override
+	public boolean pan(float x, float y, float deltaX, float deltaY) {
+	   camera.translate("deltaX, deltaY");
+	    camera.updtate();
+	    return true;
+	}

@@ -1,0 +1,15 @@
+Go Down Click in the left
+
+Build Variants
+
+Build
+Generate Signed APK...
+
+Generate Signed APK Wizard
+
+Key store path: 
+Click Create New
+Key store password:
+Key alias:
+Key password:
+
