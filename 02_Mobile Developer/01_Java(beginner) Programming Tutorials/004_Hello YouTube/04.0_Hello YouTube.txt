@@ -1,0 +1,8 @@
+Open Java elicpse 
+Windows 
+Preference
+General
+Editors
+Text Editors
+Coche à case Show line numbers
+Apply and Close

@@ -1,0 +1,11 @@
+cmd
+
+cd \
+dir
+
+cd test
+dir
+javac test.java
+dir
+java apples
+

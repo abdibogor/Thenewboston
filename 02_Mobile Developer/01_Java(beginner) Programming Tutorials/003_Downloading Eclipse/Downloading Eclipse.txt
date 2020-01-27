@@ -1,0 +1,17 @@
+open firefox or chrome
+write in url eclipse.org
+More
+you can click download then the bottom Download Packages
+https://www.eclipse.org/downloads/packages/
+Eclipse IDE for Java EE Developers(Download and install)
+
+File 
+New(Alt+Shift+N)
+Java Project
+
+Project name: abdibogoreh
+next and finish
+
+after that you have to click in src 
+new 
+class
